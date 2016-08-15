@@ -88,6 +88,9 @@ div.mobile-only{text-align: center;margin:60px auto 20px;}
 			margin-bottom: 20px;
 		}
 
+	.slideshow img:hover, .container-new img:hover{
+		opacity: 0.8;
+	}
 
 		.mainfooter ul{
 			min-height: 40px;
