@@ -9,16 +9,13 @@ layout: default
 					<header>
 						<h2>{{article.announcement}} {{article.title}}</h2>
 					</header>
-
-	<!--				<footer>
-						<p class="postinfo">{{article.author}}</p>
-					</footer>
--->
-		<!--		<content>	-->
 						<section>
+							<figure class="img-in-article">
+									<img src="{{site.baseurl}}/assets/img/bilder/oa-musik.jpg">
+								<figcaption>"Auch dieses Mal wird es Live-Musik geben. <br>Im Bild zu sehen Johanna Alba und Nicolas Arnold."</figcaption>
+							</figure>
 
 								{{article.content}}
-
 						</section>
 		</article>
 	{% endfor %}
@@ -64,14 +61,14 @@ layout: default
 -->
 		<article>
 			<section>
-				<figure>
-					<a href="{{site.baseurl}}/skulpturen.html" class="title" title="das boot">
+				<figure class="title">
+					<a href="{{site.baseurl}}/skulpturen.html" title="Das Totenschiff">
 						<img src="{{site.baseurl}}/assets/img/bilder/skulpturen/boot.jpg">
 					</a>
-					<figcaption>"Das Totenschiff, oder der schwarze Mann und das Meer" (2012), <br>Skulptur aus altem Holzbalken – gebrannt, gebürstet und geölt <br></figcaption>
+					<figcaption>"Das Totenschiff, oder der schwarze Mann und das Meer" (2012), <br>Skulptur aus altem Holzbalken – gebrannt, gebürstet und geölt<br></figcaption>
 				</figure>
-				<figure>
-					<a href="{{site.baseurl}}/malerei.html" class="title" title="gelb">
+				<figure class="title">
+					<a href="{{site.baseurl}}/malerei.html" title="Die Gelbe Gefahr">
 						<img src="{{site.baseurl}}/assets/img/bilder/malerei/gelb.jpg" alt="image">
 					</a>
 					<figcaption>"Die gelbe Gefahr" (2012), Mischtechnik auf Leinwand<br></figcaption>

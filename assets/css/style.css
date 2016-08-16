@@ -101,6 +101,35 @@ div.mobile-only{text-align: center;margin:60px auto 20px;}
 			overflow:hidden;
 			list-style: none;
 		}
+
+		figure.img-in-article{
+			overflow: hidden;
+			max-width: 40%;
+		}
+
+		figure.img-in-article:nth-of-type(even){
+			float: right;
+			margin:0 0 0 20px;
+		}
+		figure.img-in-article:nth-of-type(odd){
+			float: left;
+			margin: 0 20px 0 0;
+		}
+		figure.img-in-article figcaption{
+			max-width: 400px;
+			font-size: 70%;
+		}
+		figure.img-in-article img{
+			width:100%;
+			max-width: 400px;
+			max-height: 100%;
+			margin:0 auto;
+		}
+
+.important-info{overflow: hidden;}
+.important-info figure{max-width: 100%;width:100%;margin-bottom: 40px;}
+.important-info figure figcaption{max-width: 100%;}
+
 	/*Ende allgemeingültig*/
 
 
@@ -180,8 +209,11 @@ div.mobile-only{text-align: center;margin:60px auto 20px;}
 			padding: 10px 25px;
 			height:20px;
 		}
+		/* Ende anpassen! */
 
-/* Ende anpassen! */
+
+		.important-info figure{max-width: 40%; margin-bottom: 0;}
+
 }
 
 
@@ -466,10 +498,8 @@ article.columns.bordered{max-width:1000px;margin:0 auto;}
 	p{max-width: 1000px;text-indent:20px;text-align: justify;	/*margin: 0;*/}
 	section p:first-of-type{text-indent: 0;}
 	/* Bilder */
-	figure .title img{
+	figure.title img{
 		width:100%;
-
-
 		max-width: 1000px;
 		margin:0 auto;
 	}
@@ -521,6 +551,10 @@ article.columns.bordered{max-width:1000px;margin:0 auto;}
 						position: absolute;
 						bottom: 0;
 						left: 0;
+
+						/* fix for centering the image in all cases */
+						margin: 0 0 0 -50%;
+						left: 50%;
 					}
 
 					.slideshow.sculp figure div{
@@ -533,6 +567,9 @@ article.columns.bordered{max-width:1000px;margin:0 auto;}
 					}
 
 
+					.slideshow figure div.twotimes{
+						width: 400px;
+					}
 					.slideshow figure div.threetimes{
 						width: 600px;
 					}
