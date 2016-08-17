@@ -1,0 +1,48 @@
+.mainfooter ul{
+  min-height: 40px;
+/*			width: 80%;	*/
+    max-width: 100%;
+  font-size: 90%;
+  margin:0 auto;
+  overflow:hidden;
+  list-style: none;
+}
+
+
+
+/*#######	footer	#########*/
+
+.mainfooter{
+	margin: 0 auto;
+	padding-top: 10px;
+	background-color: #ddd;
+
+
+/* max-width: 1000px; besser über max-width:100% (falls nötig) vergeben und umschließenden Container auf max-wert setzen; */
+	max-width: 1000px;
+}
+
+.mainfooter ul{
+			padding:0;
+			margin:0 auto;
+			width: 98%;
+}
+
+
+
+.mainfooter ul li{
+	float:right;
+	display: inline;
+					/* entsprechend anpassen - Media Queries */
+	margin:0 12px;
+}
+.mainfooter ul li a{
+	margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 480px){
+  
+	.mainfooter ul li{width:50%;box-sizing:border-box;margin: 0 0 12px;text-align: center;}
+}

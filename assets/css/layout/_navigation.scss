@@ -1,0 +1,99 @@
+/*box sizing */
+
+.mainheader nav ul li, .mainheader nav ul{
+box-sizing: border-box;
+}
+
+/*basic navigation*/
+
+		.mainheader nav{
+			margin:0 auto;
+			background-color: #fff;
+			/*height: 40px;*/
+				background-color: #ddd;
+		/*			padding-bottom: 10px;	wozu? Stört im mobildesign! */
+		}
+		.mainheader nav ul{
+			list-style: none;
+			font-size: 150%;
+			width: 640px;
+			max-width: 100%;
+			margin:0 auto;
+			padding:0;
+			overflow:hidden;
+		}
+
+		.mainheader nav ul li{
+			width:25%;
+
+			float:left;
+			display: inline;
+			text-align: center;
+		}
+		.mainheader nav a:link, .mainheader nav a:visited{
+			color:#000;
+
+			display:inline-block;
+			padding: 10px 25px;
+			height:20px;
+		}
+		.mainheader nav .active a:link, .mainheader nav .active a:visited,.mainheader nav a:hover, .mainheader nav a:active{
+			color:#C97100;
+		}
+
+		nav.subnav{
+			background-color: #fff;
+			border:none;
+			font-size: 80%;
+			padding-top: 20px;
+		}
+
+
+
+    @media only screen and (max-width: 480px){
+
+    		/*  nur für kleine Bildschirme */
+    /*				.mainheader nav ul li{
+    					width:auto;
+    				}
+    				.mainheader nav ul li a{
+    					padding:0;
+    				}
+    */
+    		.mainheader nav ul li{
+    		/*	width:auto;
+    			max-width: 25%;
+    					text-align: left; 	*/
+    			width: 50%;
+    			max-width: 50%;
+    			text-align: center;
+    			height: auto;
+    				}
+    				.mainheader nav ul li a{
+    					display: inline-block;
+    					width:100%;
+    					box-sizing:border-box;
+    					height:100%;
+    				}
+    				.mainheader nav ul li a:link{
+    					height:auto;
+    				}
+    				/*.mainheader nav ul li {
+    					width:auto;
+    				}*/
+    	.mainheader nav a:link, .mainheader nav a:visited {
+    		padding:10px;
+    	}
+    }
+
+@media only screen and (min-width: 600px){
+	/* NAVIGATION */
+		.mainheader nav{
+			/*height: 40px;*/
+			max-width: 1000px;
+		}
+		.mainheader nav a:link, .mainheader nav a:visited{
+			padding: 10px 25px;
+			height:20px;
+		}
+  }

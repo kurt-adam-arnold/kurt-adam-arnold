@@ -1,0 +1,31 @@
+a{text-decoration: none;}
+a.standard:link, a.standard:visited {
+  color:black;
+  border-bottom: solid #C98100 1px;
+  padding-bottom: 6px;
+}
+
+a.standard:hover, a.standard:active{
+  color:#C97100;  /*C98100?*/
+}
+
+
+a.inlinelink:link, a.inlinelink:visited {
+  color:#555;
+  border-bottom: solid #C98100 1px;
+  padding-bottom: 2px;
+
+
+/*	text-transform: uppercase;*/
+
+  text-transform: lowercase;
+  font-variant: small-caps;
+
+}
+
+a.inlinelink:hover, a.inlinelink:active{
+  color:#C97100;  /*C98100?*/
+}
+
+a.top-border{border-top:solid #C98100 1px;padding-top: 4px;
+}

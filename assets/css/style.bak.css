@@ -1,0 +1,941 @@
+body{
+	background-color: #fff;
+	font-size: 100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	line-height: 1.4;
+}
+
+
+/*Mobile*/
+
+/*@media only screen and (min-width: 800px){
+
+	.mobile-only{display: none;}
+
+}*/
+
+div.mobile-only{text-align: center;margin:60px auto 20px;}
+
+/*Ende mobile*/
+
+
+	/*ALLGEMEINGÜLTIG, Viewport unabhängig*/
+
+		.body{
+			margin:0 auto;
+			width:90%;
+			max-width:1700px;
+			clear:both;
+		}
+	section.profil{}
+		img.profil{width:300px; float:right;padding:0 0 20px 20px;max-width: 50%;}
+		img{max-width: 100%;}
+
+
+		figure{margin:0;}
+
+			/*box sizing */
+
+		.mainheader nav ul li, .mainheader nav ul{
+			box-sizing: border-box;
+		}
+
+		a{text-decoration: none;}
+		a.standard:link, a.standard:visited {
+			color:black;
+			border-bottom: solid #C98100 1px;
+			padding-bottom: 6px;
+		}
+
+		a.standard:hover, a.standard:active{
+			color:#C97100;  /*C98100?*/
+		}
+
+
+		a.inlinelink:link, a.inlinelink:visited {
+			color:#555;
+			border-bottom: solid #C98100 1px;
+			padding-bottom: 2px;
+
+
+		/*	text-transform: uppercase;*/
+
+			text-transform: lowercase;
+			font-variant: small-caps;
+
+		}
+
+		a.inlinelink:hover, a.inlinelink:active{
+			color:#C97100;  /*C98100?*/
+		}
+
+		a.top-border{border-top:solid #C98100 1px;padding-top: 4px;
+}
+		/* text,paragraphs aligns etc*/
+
+
+		p.postinfo{
+			text-align: right;
+			font-style: italic;
+			margin-top: 0;
+			margin-bottom: 16px;
+			text-transform: lowercase;
+		}
+		figcaption{
+			text-align: center;
+			float:none;
+			width:100%;
+			margin-bottom: 20px;
+		}
+
+	.slideshow img:hover, .container-new img:hover{
+		opacity: 0.8;
+	}
+
+		.mainfooter ul{
+			min-height: 40px;
+/*			width: 80%;	*/
+				max-width: 100%;
+			font-size: 90%;
+			margin:0 auto;
+			overflow:hidden;
+			list-style: none;
+		}
+
+		figure.img-in-article{
+			overflow: hidden;
+			max-width: 40%;
+		}
+
+		figure.img-in-article:nth-of-type(even){
+			float: right;
+			margin:0 0 0 20px;
+		}
+		figure.img-in-article:nth-of-type(odd){
+			float: left;
+			margin: 0 20px 0 0;
+		}
+		figure.img-in-article figcaption{
+			max-width: 400px;
+			font-size: 70%;
+		}
+		figure.img-in-article img{
+			width:100%;
+			max-width: 400px;
+			max-height: 100%;
+			margin:0 auto;
+		}
+
+.important-info{overflow: hidden;}
+.important-info figure{max-width: 100%;width:100%;margin-bottom: 40px;}
+.important-info figure figcaption{max-width: 100%;}
+
+	/*Ende allgemeingültig*/
+
+
+
+
+/*basic navigation*/
+
+
+		.mainheader nav{
+			margin:0 auto;
+			background-color: #fff;
+			/*height: 40px;*/
+				background-color: #ddd;
+		/*			padding-bottom: 10px;	wozu? Stört im mobildesign! */
+		}
+		.mainheader nav ul{
+			list-style: none;
+			font-size: 150%;
+			width: 640px;
+			max-width: 100%;
+			margin:0 auto;
+			padding:0;
+			overflow:hidden;
+		}
+
+		.mainheader nav ul li{
+			width:25%;
+
+			float:left;
+			display: inline;
+			text-align: center;
+		}
+		.mainheader nav a:link, .mainheader nav a:visited{
+			color:#000;
+
+			display:inline-block;
+			padding: 10px 25px;
+			height:20px;
+		}
+		.mainheader nav .active a:link, .mainheader nav .active a:visited,.mainheader nav a:hover, .mainheader nav a:active{
+			color:#C97100;
+		}
+
+		nav.subnav{
+			background-color: #fff;
+			border:none;
+			font-size: 80%;
+			padding-top: 20px;
+		}
+
+
+
+
+
+/* anpassen! */
+	/*					figure div{
+							border-top: 1px solid white;
+							border-bottom: 1px solid white;
+						}
+
+						figure div:hover{
+							border-top: 1px solid black;
+							border-bottom: 1px solid black;
+						}
+	*/
+@media only screen and (min-width: 600px){
+
+	/* NAVIGATION */
+		.mainheader nav{
+			/*height: 40px;*/
+
+			max-width: 1000px;
+		}
+
+
+		.mainheader nav a:link, .mainheader nav a:visited{
+			padding: 10px 25px;
+			height:20px;
+		}
+		/* Ende anpassen! */
+
+
+		.important-info figure{max-width: 40%; margin-bottom: 0;}
+
+}
+
+
+
+
+/* Content */
+
+.maincontent{
+	margin-top: 100px;
+}
+
+.maincontent.sculp,.maincontent.paint{
+	margin-top: 30px;
+}
+
+
+article{
+	margin-bottom: 80px;
+}
+
+article.columns.bordered{max-width:1000px;margin:0 auto;}
+
+.bordered{
+
+	/*reset*/
+	border:none;
+
+	margin-bottom: 80px;
+
+
+
+	border-left: 6px solid #C97100;
+	padding-left: 30px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+/*
+.bordered-bottom{
+	border-bottom: 6px solid #C97100;
+	border-left: none;
+}
+*/
+
+	/*
+
+
+
+.maincontent article section{
+	/*background-color: #ddd;*/	/*
+	width:100%;
+}			*/
+
+
+
+
+
+/*#######	Inhaltskästen	#########*/
+
+
+
+.container{
+	position: relative;
+	height:360px;
+	/*width: 50%;*/
+	/*	margin:80px 0 30px;*/
+
+				/*	text-align: center;*/
+
+	border-left:1px solid white;
+	/*border-right:1px solid white;	*/
+}
+
+						/* nötig???	*/
+								.twocolumn{
+									width:100%;
+								}
+								.twocolumn div{
+
+								}
+								.twocolumn div:nth-child(1){
+									float: left;
+									width:30%;
+
+									width: 100%;
+								}
+								div.container-new p{
+									width:30%;
+								}
+								div.container-new img{
+									max-width:100%;
+									max-height: 100%;
+								}
+						/* nötig???	ENDE*/
+
+/*#######	footer	#########*/
+
+.mainfooter{
+	margin: 0 auto;
+	padding-top: 10px;
+	background-color: #ddd;
+
+
+/* max-width: 1000px; besser über max-width:100% (falls nötig) vergeben und umschließenden Container auf max-wert setzen; */
+	max-width: 1000px;
+}
+
+.mainfooter ul{
+			padding:0;
+			margin:0 auto;
+			width: 98%;
+}
+
+
+
+.mainfooter ul li{
+	float:right;
+	display: inline;
+					/* entsprechend anpassen - Media Queries */
+	margin:0 12px;
+}
+.mainfooter ul li a{
+	margin: 0 auto;
+}
+/*#######	nur für bestimmte (Unter-)Seiten	#########*/
+
+		/* werke */
+			div.werke p{
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.werke h1{
+				max-width:1000px;
+				margin: 0 auto;
+				margin-bottom: 12px;
+			}
+
+			.gemaelde .container-new{
+				max-width: 1000px;
+				margin: 0 auto;
+			}
+
+		/* kontakt */
+
+		.contact{
+			text-align: center;
+			font-size: 112%;
+		}
+		.contact p{
+			text-align: center;
+		}
+
+		.contact section:nth-of-type(1){
+			margin-top: 60px;
+		}
+			.maincontent article.contact section {
+		width: 96%;
+		max-width: 100%;
+		margin:20px auto;
+		border:none;
+		border-radius: 0;
+
+		border-bottom: 1px solid black;
+
+		padding:10px;
+		}
+			.maincontent article.contact:nth-of-type(1) {
+					border-top: 12px solid black;
+			}
+
+		/* impressum */
+
+		.maincontent.impressum{font-size: 90%;}
+		.maincontent article.impressum{max-width:100%;width: 940px;margin:0 auto;}
+/*#######	Media Queries	#########*/
+
+
+@media only screen and (max-width: 480px){
+
+		/*  nur für kleine Bildschirme */
+/*				.mainheader nav ul li{
+					width:auto;
+				}
+				.mainheader nav ul li a{
+					padding:0;
+				}
+*/
+		.mainheader nav ul li{
+		/*	width:auto;
+			max-width: 25%;
+					text-align: left; 	*/
+			width: 50%;
+			max-width: 50%;
+			text-align: center;
+			height: auto;
+				}
+				.mainheader nav ul li a{
+					display: inline-block;
+					width:100%;
+					box-sizing:border-box;
+					height:100%;
+				}
+				.mainheader nav ul li a:link{
+					height:auto;
+				}
+	.mainfooter ul li{width:50%;box-sizing:border-box;margin: 0 0 12px;text-align: center;}
+
+	body{font-size: 90%;}
+
+				/*.mainheader nav ul li {
+					width:auto;
+				}*/
+	.mainheader nav a:link, .mainheader nav a:visited {
+		padding:10px;
+	}
+
+	h2{
+		margin-bottom: 10px;
+	}
+	img.profil{max-width: 100%;width: 100%;}
+
+}
+
+@media only screen and (max-width: 740px){
+	.bordered{
+		/*reset*/
+		border:none;
+		padding-left: 0;
+
+		margin-bottom: 80px; /*ggf. aus media querys raushalten, da allgemeingültig?!) */
+		padding-top: 10px;
+
+		border-top:12px solid #C97100;
+		border-bottom: 3px solid #C97100;
+
+	}
+}
+
+/*unter 740px  Design ausdünnen, volle Spaltenbreite, horizontale Trennung*/
+
+@media only screen and (min-width: 800px){
+
+	body{
+		font-size: 120%;
+	}
+
+
+	article.columns section{
+		max-width: 1000px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	article section{
+		max-width: 1000px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 600px){
+
+
+		.maincontent article.impressum{text-align: justify;}
+
+
+/*Desktop etc...*/
+
+	figure{margin:0 0 40px;}
+
+	h1 {font-size: 150%;margin-bottom:16px;}
+	h2 {font-size: 112%;margin:0;}
+
+	h3 {font-size: 112%;margin-top:30px; margin-bottom: 0; /*padding-bottom: 16px;*/}
+	p{max-width: 1000px;text-indent:20px;text-align: justify;	/*margin: 0;*/}
+	section p:first-of-type{text-indent: 0;}
+	/* Bilder */
+	figure.title img{
+		width:100%;
+		max-width: 1000px;
+		margin:0 auto;
+	}
+
+	.profilbild{
+		max-width: 300px;
+	}
+
+		.maincontent article.contact section{
+			border-left: solid black 1px;
+				border-right: solid black 1px;
+					border-radius: 4px;
+					padding: 10px;
+		border-bottom:none;
+					max-width: 600px;
+			margin: 0 auto 100px;
+		}
+			.maincontent article.contact:nth-of-type(1) {
+					border:none;
+			}
+				/*slideshow*/
+
+					.slideshow figure{
+					/*	width:;	*/
+					}
+					.slideshow figure.height200 a.swipebox{
+						width: 600px;
+					}
+					.slideshow figure.height200 img{
+						height: 200px;
+						width: auto;
+						margin: 0 auto;
+					}
+
+					/*	Added ".paint" everywhere you find ".sculp" ...*/
+
+					.slideshow.sculp, .slideshow.paint{
+						margin:80px 0;
+					}
+
+					.slideshow figure img{
+							/*width: 100%;*/
+						max-height:100%;
+						max-width: 100%;
+					}
+
+/*obsolet??*/		.slideshow.sculp figure img{
+
+						position: absolute;
+						bottom: 0;
+						left: 0;
+
+						/* fix for centering the image in all cases */
+						margin: 0 0 0 -50%;
+						left: 50%;
+					}
+
+					.slideshow.sculp figure div{
+						width: 200px;
+						margin: 0;
+						float: left;
+
+						height:400px;
+						position: relative;
+					}
+
+
+					.slideshow figure div.twotimes{
+						width: 400px;
+					}
+					.slideshow figure div.threetimes{
+						width: 600px;
+					}
+}
+/* Ende Desktop	*/
+
+/*	malerei - galerie queries*/
+@media only screen and (min-width: 444px){
+
+		.slideshow.paint figure div{
+			max-width: 50%;
+			float:left;
+				padding-right:6px;
+			box-sizing:border-box;
+
+		}
+
+.important-info{text-align: center;}
+.important-info p{text-align: center;}
+
+			/*		.slideshow.paint figure div:nth-of-type(odd){
+						padding-right:6px;
+					}
+			/* gilt seltsamerweise für alle*/
+
+}
+
+@media only screen and (min-width: 900px){
+
+
+		.slideshow.paint figure div{
+			max-width: 33.333333333%;
+		}
+
+}
+@media only screen and (min-width: 1354px){
+
+		.slideshow.paint figure{
+			max-width: 2000px;
+			margin: 0 auto;
+		}
+		.slideshow.paint figure div{
+			width:25%;
+			max-width: 100%;
+		}
+		.slideshow.paint figure div img{
+			/*width:25%;*/
+		}
+
+}
+@media only screen and (min-width: 941px){
+
+					.slideshow.paint figure div{
+	/*					width: 400px;
+						margin:10px;
+						float: left;
+
+						height:400px;*/
+						position: relative;
+					}
+
+/*
+.slideshow.paint figure img{
+
+						position: absolute;
+						bottom: 0;
+						left: 0;
+					}
+
+*/
+
+}
+
+
+/*#######	Clearfix	#########*/
+
+
+.clearfix:after{
+		content:".";
+		display:block;
+		clear:both;
+		height:0;
+		visibility:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*putting swipebox-changes.css into here*/
+
+/*! Swipebox v1.2.8 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
+html.swipebox-html.swipebox-touch {
+  overflow: hidden !important;
+}
+
+#swipebox-overlay img {
+  border: none !important;
+}
+
+#swipebox-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999 !important;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#swipebox-slider {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  white-space: nowrap;
+  position: absolute;
+  display: none;
+}
+#swipebox-slider .slide {
+  background: url(../img/loader.gif) no-repeat center center;
+  height: 100%;
+  width: 100%;
+  line-height: 1px;
+  text-align: center;
+  display: inline-block;
+}
+#swipebox-slider .slide:before {
+  content: "";
+  display: inline-block;
+  height: 50%;
+  width: 1px;
+  margin-right: -1px;
+}
+
+#swipebox-slider .slide img, #swipebox-slider .slide .swipebox-video-container {
+  display: inline-block;
+  max-height: 100%;
+      max-height: 90%;
+      max-width: 90%;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+
+
+  /*user changes*/
+  vertical-align: middle;
+margin-bottom: 50px;
+margin-top: 50px;
+}
+/*user defined*/
+
+#swipebox-slider .slide img{
+    max-width: 90%;
+    max-height: 90%; /* sehr gut! , maybe:max-height: 100%-100px;*/
+
+}
+
+/*end of user definition*/
+
+#swipebox-slider .slide .swipebox-video-container {
+  background: none;
+  max-width: 1140px;
+  max-height: 100%;
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+#swipebox-slider .slide .swipebox-video-container .swipebox-video {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  position: relative;
+}
+#swipebox-slider .slide .swipebox-video-container .swipebox-video iframe {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#swipebox-action,
+#swipebox-caption {
+  position: absolute;
+  left: 0;
+  z-index: 999;
+  height: 50px;
+  width: 100%;
+}
+
+#swipebox-action{
+  bottom: -50px;
+}
+
+
+#swipebox-action.visible-bars {
+  -ms-transform: translateY(-50px);
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+
+
+#swipebox-action #swipebox-prev,
+#swipebox-action #swipebox-next,
+#swipebox-action #swipebox-close {
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  border: none !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+}
+#swipebox-action #swipebox-prev {
+  background-position: -32px 13px;
+  right: 100px;
+}
+#swipebox-action #swipebox-next {
+  background-position: -78px 13px;
+  right: 40px;
+}
+#swipebox-action #swipebox-close {
+  background-position: 15px 12px;
+  left: 40px;
+}
+#swipebox-action #swipebox-prev.disabled,
+#swipebox-action #swipebox-next.disabled {
+  opacity: 0.3;
+}
+
+#swipebox-caption {
+  bottom: 50px;                            /*user change*/
+  text-align: center;
+  z-index: 1000;                          /*user change*/
+  width: 70%;                           /*user change*/
+
+  margin:0 auto;
+  margin-left: 15%;
+
+}
+#swipebox-caption.visible-bars {
+  -ms-transform: translateY(50px);
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+}
+
+#swipebox-slider.rightSpring {
+  -webkit-animation: rightSpring 0.3s;
+  animation: rightSpring 0.3s;
+}
+
+#swipebox-slider.leftSpring {
+  -webkit-animation: leftSpring 0.3s;
+  animation: leftSpring 0.3s;
+}
+
+@-webkit-keyframes rightSpring {
+  0% {
+    margin-left: 0px;
+  }
+
+  50% {
+    margin-left: -30px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes rightSpring {
+  0% {
+    margin-left: 0px;
+  }
+
+  50% {
+    margin-left: -30px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@-webkit-keyframes leftSpring {
+  0% {
+    margin-left: 0px;
+  }
+
+  50% {
+    margin-left: 30px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes leftSpring {
+  0% {
+    margin-left: 0px;
+  }
+
+  50% {
+    margin-left: 30px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #swipebox-action #swipebox-close {
+    left: 0;
+  }
+
+  #swipebox-action #swipebox-prev {
+    right: 60px;
+  }
+
+  #swipebox-action #swipebox-next {
+    right: 0;
+  }
+}
+/* Skin
+--------------------------*/
+#swipebox-overlay {
+  background: #0d0d0d;
+}
+
+#swipebox-action,
+#swipebox-caption {
+  text-shadow: 1px 1px 1px black;
+  background-color: #0d0d0d;
+  background-color: #0d0d0d;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0d0d0d), to(black));
+  background-image: -webkit-linear-gradient(top, #0d0d0d, black);
+  background-image: linear-gradient(to bottom, #0d0d0d, black);
+  opacity: 0.95;
+}
+
+#swipebox-action {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#swipebox-caption {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  color: white !important;
+  font-size: 15px;
+  line-height: 43px;
+  font-family: Helvetica, Arial, sans-serif;
+}

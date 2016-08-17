@@ -1,0 +1,50 @@
+img.profil{width:300px; float:right;padding:0 0 20px 20px;max-width: 50%;}
+img{max-width: 100%;}
+figure{margin:0;}
+
+
+figure.img-in-article{
+  overflow: hidden;
+  max-width: 40%;
+}
+
+figure.img-in-article:nth-of-type(even){
+  float: right;
+  margin:0 0 0 20px;
+}
+figure.img-in-article:nth-of-type(odd){
+  float: left;
+  margin: 0 20px 0 0;
+}
+figure.img-in-article figcaption{
+  max-width: 400px;
+  font-size: 70%;
+}
+figure.img-in-article img{
+  width:100%;
+  max-width: 400px;
+  max-height: 100%;
+  margin:0 auto;
+}
+
+
+@media only screen and (max-width: 480px){
+
+	img.profil{max-width: 100%;width: 100%;}
+}
+
+@media only screen and (min-width: 600px){
+
+/*Desktop etc...*/
+	figure{margin:0 0 40px;}
+	/* Bilder */
+	figure.title img{
+		width:100%;
+		max-width: 1000px;
+		margin:0 auto;
+	}
+
+	.profilbild{
+		max-width: 300px;
+	}
+}

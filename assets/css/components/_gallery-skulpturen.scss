@@ -1,0 +1,26 @@
+@media only screen and (min-width: 600px){
+
+  .slideshow.sculp,{
+    margin:80px 0;
+  }
+
+  /*obsolet??*/		.slideshow.sculp figure img{
+
+  						position: absolute;
+  						bottom: 0;
+  						left: 0;
+
+  						/* fix for centering the image in all cases */
+  						margin: 0 0 0 -50%;
+  						left: 50%;
+  					}
+
+  					.slideshow.sculp figure div{
+  						width: 200px;
+  						margin: 0;
+  						float: left;
+
+  						height:400px;
+  						position: relative;
+  					}
+}

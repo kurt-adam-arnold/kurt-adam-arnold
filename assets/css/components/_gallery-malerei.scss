@@ -1,0 +1,69 @@
+@media only screen and (min-width: 600px){
+
+  .slideshow.paint{
+    margin:80px 0;
+  }
+}
+
+@media only screen and (min-width: 444px){
+
+		.slideshow.paint figure div{
+			max-width: 50%;
+			float:left;
+				padding-right:6px;
+			box-sizing:border-box;
+
+		}
+
+
+
+			/*		.slideshow.paint figure div:nth-of-type(odd){
+						padding-right:6px;
+					}
+			/* gilt seltsamerweise für alle*/
+
+}
+
+@media only screen and (min-width: 900px){
+
+
+		.slideshow.paint figure div{
+			max-width: 33.333333333%;
+		}
+
+}
+@media only screen and (min-width: 1354px){
+
+		.slideshow.paint figure{
+			max-width: 2000px;
+			margin: 0 auto;
+		}
+		.slideshow.paint figure div{
+			width:25%;
+			max-width: 100%;
+		}
+		.slideshow.paint figure div img{
+			/*width:25%;*/
+		}
+
+}
+@media only screen and (min-width: 941px){
+
+					.slideshow.paint figure div{
+	/*					width: 400px;
+						margin:10px;
+						float: left;
+
+						height:400px;*/
+						position: relative;
+					}
+
+/*
+.slideshow.paint figure img{
+
+						position: absolute;
+						bottom: 0;
+						left: 0;
+					}
+*/
+}

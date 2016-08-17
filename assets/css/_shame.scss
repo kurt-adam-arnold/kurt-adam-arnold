@@ -1,0 +1,82 @@
+.slideshow img:hover, .container-new img:hover{
+  opacity: 0.8;
+}
+
+/* Content */
+
+.maincontent{
+	margin-top: 100px;
+}
+.maincontent.sculp,.maincontent.paint{
+	margin-top: 30px;
+}
+article{
+	margin-bottom: 80px;
+}
+article.columns.bordered{max-width:1000px;margin:0 auto;}
+
+
+
+@media only screen and (min-width: 444px){
+
+.important-info{text-align: center;}
+.important-info p{text-align: center;}
+
+}
+
+@media only screen and (min-width: 600px){
+.important-info figure{max-width: 40%; margin-bottom: 0;}
+}
+
+div.mobile-only{text-align: center;margin:60px auto 20px;}
+
+
+/*#######	Inhaltskästen	#########*/
+
+
+						/* nötig???	*/
+								.twocolumn{
+									width:100%;
+								}
+								.twocolumn div{
+
+								}
+								.twocolumn div:nth-child(1){
+									float: left;
+									width:30%;
+
+									width: 100%;
+								}
+								div.container-new p{
+									width:30%;
+								}
+								div.container-new img{
+									max-width:100%;
+									max-height: 100%;
+								}
+						/* nötig???	ENDE*/
+
+            @media only screen and (min-width: 600px){
+            		.maincontent article.contact section{
+            			border-left: solid black 1px;
+            				border-right: solid black 1px;
+            					border-radius: 4px;
+            					padding: 10px;
+            		border-bottom:none;
+            					max-width: 600px;
+            			margin: 0 auto 100px;
+            		}
+            			.maincontent article.contact:nth-of-type(1) {
+            					border:none;
+            			}
+}
+            /* UI Stuff */
+            /*					figure div{
+                        border-top: 1px solid white;
+                        border-bottom: 1px solid white;
+                      }
+                      figure div:hover{
+                        border-top: 1px solid black;
+                        border-bottom: 1px solid black;
+                      }
+            */
