@@ -10,7 +10,7 @@ caption: '"Die Skulptur <em>Grübelnder König</em> im Freien"'
 
 Hiermit lade ich zu meiner nächsten Ausstellung "Gratwanderungen - Malerei und Skulptur" im Kunst- und Kulturverein Sieben Mühlen Großkarlbach ein.
 
-Die Vernissage findet am 11. Septemder 2016 um 11.00 Uhr im Kulturtreff Altes Rathaus statt. Der Kunsthistoriker Stefan Ackermann führt in die Ausstellung ein.
+Die Vernissage findet am 11. September 2016 um 11.00 Uhr im Kulturtreff Altes Rathaus statt. Der Kunsthistoriker Stefan Ackermann führt in die Ausstellung ein.
 
 
 Anschrift: Kulturtreff Altes Rathaus, Kändelgasse 4, 67229 Großkarlbach
