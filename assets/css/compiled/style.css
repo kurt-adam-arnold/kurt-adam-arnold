@@ -986,7 +986,7 @@ article {
 /* line 16, ../_shame.scss */
 article.columns.bordered {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
 }
 
 @media only screen and (min-width: 444px) {
