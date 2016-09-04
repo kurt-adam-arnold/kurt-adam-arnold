@@ -504,9 +504,11 @@ nav.subnav {
     /*width: 100%;*/
     max-height: 100%;
     max-width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 
-  /* line 25, ../components/_gallery.scss */
+  /* line 27, ../components/_gallery.scss */
   .slideshow figure div.threetimes {
     width: 600px;
     margin: 0;
@@ -1049,8 +1051,3 @@ div.container-new img {
           }
 */
 /* messing around with centering methods of the sculpture gallery */
-/* line 4, ../_more-shame.sass */
-.slideshow.sculp figure img {
-  position: absolute;
-  bottom: 0;
-}
