@@ -4,16 +4,48 @@
     margin:80px 0;
   }
 
-  /*obsolet??*/		.slideshow.sculp figure img{
+  // /*obsolet??*/		.slideshow.sculp figure img{
 
+/* To align all the images "standing on the bottom"
   						position: absolute;
   						bottom: 0;
-  						left: 0;
+*/
+
+/*  						left: 0;
+*/
 
   						/* fix for centering the image in all cases */
-  						margin: 0 0 0 -50%;
-  						left: 50%;
-  					}
+      //        display: inline-block;
+
+/*display flex may be the best and simplest solution */
+
+//margin: 0 auto;
+
+      //        margin: 0 0 0 -100px;
+  		//				left: 50%;
+
+//another method
+// .slideshow.sculp figure img{
+// position: absolute;
+// left: 50%;
+// +transform(translate(-50%,-50%));
+// }
+/*
+// Compass-based centering based on image-width; Workflow needed to calculate those for any given image (array). (for-Schleife)
+
+$image-width2: image-width('bilder/skulpturen/der_linkstraeger_2014_400.jpg');
+              margin: 0 0 0 (-$image-width2/2);
+*/
+
+/*
+.slideshow.sculp figure a{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+*/
 
   					.slideshow.sculp figure div{
   						width: 200px;
@@ -22,5 +54,10 @@
 
   						height:400px;
   						position: relative;
+
+              //testing
+          //    background-color: #543;
+
+              // text-align: center;
   					}
 }
