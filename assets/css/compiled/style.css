@@ -519,7 +519,12 @@ nav.subnav ul li {
     bottom: 0;
   }
 
-  /* line 27, ../components/_gallery.scss */
+  /* line 24, ../components/_gallery.scss */
+  .slideshow.paint figure img {
+    position: relative;
+  }
+
+  /* line 31, ../components/_gallery.scss */
   .slideshow figure div.threetimes {
     width: 600px;
     margin: 0;
