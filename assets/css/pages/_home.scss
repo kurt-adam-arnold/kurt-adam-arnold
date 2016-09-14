@@ -1,3 +1,16 @@
 .important-info {overflow: hidden;}
 .important-info figure {max-width: 100%;width:100%;margin-bottom: 40px;}
 .important-info figure figcaption {max-width: 100%;}
+
+
+@media only screen and (min-width: 444px){
+
+.important-info{text-align: left;}
+.important-info h2{margin-bottom: 40px;}
+.important-info p{text-align: center;}
+
+}
+
+@media only screen and (min-width: 600px){
+.important-info figure{max-width: 40%; margin-bottom: 0;}
+}

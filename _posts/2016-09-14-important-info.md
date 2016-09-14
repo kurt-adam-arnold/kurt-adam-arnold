@@ -1,6 +1,6 @@
 ---
-announcement: '17. / 18. SEPT  –  Nächste Ausstellung:'
-title: '"Offenes Atelier: Malerei und Skulptur. Neue und alte Arbeiten."'
+announcement: '17. / 18. SEPT  –  Nächste Ausstellung:<br>'
+title: '"Offenes Atelier: Malerei und Skulptur. Neue und alte Arbeiten. Live-Musik"'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
 category: important-info

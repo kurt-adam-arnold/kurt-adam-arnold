@@ -899,6 +899,29 @@ a.top-border {
   max-width: 100%;
 }
 
+@media only screen and (min-width: 444px) {
+  /* line 8, ../pages/_home.scss */
+  .important-info {
+    text-align: left;
+  }
+
+  /* line 9, ../pages/_home.scss */
+  .important-info h2 {
+    margin-bottom: 40px;
+  }
+
+  /* line 10, ../pages/_home.scss */
+  .important-info p {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 600px) {
+  /* line 15, ../pages/_home.scss */
+  .important-info figure {
+    max-width: 40%;
+    margin-bottom: 0;
+  }
+}
 /* line 1, ../pages/_contact.scss */
 .contact {
   text-align: center;
@@ -989,25 +1012,7 @@ article.columns.bordered {
   margin: 0 auto 80px;
 }
 
-@media only screen and (min-width: 444px) {
-  /* line 22, ../_shame.scss */
-  .important-info {
-    text-align: center;
-  }
-
-  /* line 23, ../_shame.scss */
-  .important-info p {
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 600px) {
-  /* line 28, ../_shame.scss */
-  .important-info figure {
-    max-width: 40%;
-    margin-bottom: 0;
-  }
-}
-/* line 31, ../_shame.scss */
+/* line 20, ../_shame.scss */
 div.mobile-only {
   text-align: center;
   margin: 60px auto 20px;
@@ -1015,24 +1020,24 @@ div.mobile-only {
 
 /*#######	Inhaltskästen	#########*/
 /* nötig???	*/
-/* line 38, ../_shame.scss */
+/* line 27, ../_shame.scss */
 .twocolumn {
   width: 100%;
 }
 
-/* line 44, ../_shame.scss */
+/* line 33, ../_shame.scss */
 .twocolumn div:nth-child(1) {
   float: left;
   width: 30%;
   width: 100%;
 }
 
-/* line 50, ../_shame.scss */
+/* line 39, ../_shame.scss */
 div.container-new p {
   width: 30%;
 }
 
-/* line 53, ../_shame.scss */
+/* line 42, ../_shame.scss */
 div.container-new img {
   max-width: 100%;
   max-height: 100%;
@@ -1040,7 +1045,7 @@ div.container-new img {
 
 /* nötig???	ENDE*/
 @media only screen and (min-width: 600px) {
-  /* line 60, ../_shame.scss */
+  /* line 49, ../_shame.scss */
   .maincontent article.contact section {
     border-left: solid black 1px;
     border-right: solid black 1px;
@@ -1051,7 +1056,7 @@ div.container-new img {
     margin: 0 auto 100px;
   }
 
-  /* line 69, ../_shame.scss */
+  /* line 58, ../_shame.scss */
   .maincontent article.contact:nth-of-type(1) {
     border: none;
   }
