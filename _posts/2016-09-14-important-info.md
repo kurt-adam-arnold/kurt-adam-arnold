@@ -1,5 +1,5 @@
 ---
-announcement: '17. / 18. SEPT  –  Nächste Ausstellung:<br>'
+announcement: '17. / 18. SEPT  –  Vor Kurzem:<br>'
 title: '"Offenes Atelier: Malerei und Skulptur. Neue und alte Arbeiten. Live-Musik"'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
@@ -8,7 +8,7 @@ image: 'offenes-atelier/offenes-atelier2-400.jpg'
 caption: '"Werkraum in der Illertstraße beim Offenen Atelier in Viernheim"'
 ---
 
-Im Rahmen des Kultursommers Südhessen (KUSS) findet mein Offenes Atelier am Wochenende des 17. und 18. Septembers statt. Es gibt Live-Musik, Snacks, Getränke und Gespräche über Kunst – Jeweils von 15.00 – 20.00 Uhr.
+Im Rahmen des Kultursommers Südhessen (KUSS) fand mein Offenes Atelier am Wochenende des 17. und 18. Septembers statt. Es gab Live-Musik, Snacks, Getränke und Gespräche über Kunst – Jeweils von 15.00 – 20.00 Uhr.
 
 
 Musik: New Way Six (Sa); <br>Nicolas Arnold and friends (So)
