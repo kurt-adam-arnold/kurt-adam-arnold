@@ -8,8 +8,6 @@ image: 'offenes-atelier/offenes-atelier1-400.jpg'
 caption: '"Die Skulptur <em>Grübelnder König</em> im Freien"'
 ---
 
-Meine Ausstellung "Gratwanderungen - Malerei und Skulptur" im Kunst- und Kulturverein Sieben Mühlen Großkarlbach ist eröffnet.
-
-Die Öffnungszeiten vom 18.09. – 02.10. sind immer sonntags von 14.00 – 16.00 Uhr oder nach Vereinbarung.
+Meine Ausstellung "Gratwanderungen - Malerei und Skulptur" im Kunst- und Kulturverein Sieben Mühlen Großkarlbach lief vom 18.09. – 02.10.
 
 Anschrift: Kulturtreff Altes Rathaus, Kändelgasse 4, 67229 Großkarlbach
