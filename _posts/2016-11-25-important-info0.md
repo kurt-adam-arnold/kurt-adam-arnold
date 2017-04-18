@@ -1,5 +1,7 @@
 ---
-announcement: '27. NOV –  VERNISSAGE: <br>'
+jahr: '(2016)'
+announce-date: '27. NOV – '
+announcement: 'Vernissage: <br>'
 title: '"Kunstverein zeigt Bilder und Skulpturen zum Thema TORSO"'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold

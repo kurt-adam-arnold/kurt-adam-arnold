@@ -1,5 +1,7 @@
 ---
-announcement: '18. SEPT bis 02. OKT –  Ausstellung: <br>'
+jahr: '(2016)'
+announce-date: '18. SEPT bis 02. OKT – '
+announcement: 'Ausstellung: <br>'
 title: '"Gratwanderungen - Malerei und Skulptur"'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold

@@ -1,5 +1,7 @@
 ---
-announcement: '02. OKT –  FINISSAGE: <br>'
+jahr: '(2016)'
+announce-date: '02. OKT – '
+announcement: 'Finnisage: <br>'
 title: '"Gratwanderungen - Malerei und Skulptur"'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold

@@ -90,20 +90,30 @@ figcaption {
   letter-spacing: 2px;
 }
 
+/* line 20, ../base/_typography.scss */
+.caps {
+  font-variant: small-caps;
+}
+
+/* line 24, ../base/_typography.scss */
+.small-text {
+  font-size: .6em;
+}
+
 @media only screen and (min-width: 600px) {
-  /* line 23, ../base/_typography.scss */
+  /* line 31, ../base/_typography.scss */
   h1 {
     font-size: 150%;
     margin-bottom: 16px;
   }
 
-  /* line 24, ../base/_typography.scss */
+  /* line 32, ../base/_typography.scss */
   h2 {
     font-size: 112%;
     margin: 0;
   }
 
-  /* line 26, ../base/_typography.scss */
+  /* line 34, ../base/_typography.scss */
   h3 {
     font-size: 112%;
     margin-top: 30px;
@@ -111,7 +121,7 @@ figcaption {
     /*padding-bottom: 16px;*/
   }
 
-  /* line 27, ../base/_typography.scss */
+  /* line 35, ../base/_typography.scss */
   p {
     max-width: 1000px;
     text-indent: 20px;
@@ -119,29 +129,29 @@ figcaption {
     /*margin: 0;*/
   }
 
-  /* line 28, ../base/_typography.scss */
+  /* line 36, ../base/_typography.scss */
   section p:first-of-type {
     text-indent: 0;
   }
 
-  /* line 30, ../base/_typography.scss */
+  /* line 38, ../base/_typography.scss */
   .maincontent article.impressum {
     text-align: justify;
   }
 }
 @media only screen and (min-width: 800px) {
-  /* line 37, ../base/_typography.scss */
+  /* line 45, ../base/_typography.scss */
   body {
     font-size: 120%;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 43, ../base/_typography.scss */
+  /* line 51, ../base/_typography.scss */
   body {
     font-size: 90%;
   }
 
-  /* line 45, ../base/_typography.scss */
+  /* line 53, ../base/_typography.scss */
   h2 {
     margin-bottom: 10px;
   }
