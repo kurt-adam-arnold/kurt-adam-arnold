@@ -69,3 +69,17 @@ div.mobile-only{text-align: center;margin:60px auto 20px;}
                         border-bottom: 1px solid black;
                       }
             */
+
+
+
+
+
+      body{
+        font-variant-numeric: oldstyle-nums;
+        -webkit-font-feature-settings: "onum" 1;
+        -moz-font-feature-settings: "onum" 1;
+        -moz-font-feature-settings: "onum=1";
+        -ms-font-feature-settings: "onum" 1;
+        -o-font-feature-settings: "onum" 1;
+        font-feature-settings: "onum" 1;
+      }

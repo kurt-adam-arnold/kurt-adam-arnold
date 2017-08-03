@@ -1,3 +1,14 @@
+body{
+  font-variant-numeric: oldstyle-nums;
+  -webkit-font-feature-settings: "onum" 1;
+  -moz-font-feature-settings: "onum" 1;
+  -moz-font-feature-settings: "onum=1";
+  -ms-font-feature-settings: "onum" 1;
+  -o-font-feature-settings: "onum" 1;
+  font-feature-settings: "onum" 1;
+}
+
+
 p.postinfo{
   text-align: right;
   font-style: italic;
@@ -19,7 +30,12 @@ figcaption{
 
 .caps{
   font-variant: small-caps;
+  font-variant-caps: all-small-caps;
 }
+
+.italic{font-style: italic;}
+
+.colored-text{color: #C97100;}
 
 .small-text{
   font-size: .6em;

@@ -81,7 +81,6 @@ ggf. in einer zusätzlichen "Nebenspalte" schreiben, damit Weißraum gewinnen un
 										<p>...Introtex</p></section>
 									<section><h3>...</h3>
 -->
-<article>
 
 
 								<p class="intro">
@@ -176,8 +175,6 @@ ggf. in einer zusätzlichen "Nebenspalte" schreiben, damit Weißraum gewinnen un
 </article>
 
 
-
-
 		<article id="artistatement" class="columns bordered">
 
 				<section>
@@ -203,6 +200,27 @@ ggf. in einer zusätzlichen "Nebenspalte" schreiben, damit Weißraum gewinnen un
 							Als Material kommt alles, was formbar ist, in Frage. Derzeit sind es die Klassiker Holz und Stein.  Beim Holz sind wir wieder bei den ach so geliebten Fehlern. Alterungsrisse, Äste, schadhafte Stellen im Holz, und was noch so alles zum Teil im Verborgenen lauert, fordern immer wieder ein Überdenken der Arbeit. Das macht flexibel. Wie beim Malen wird der Prozess der Entstehung über die Bearbeitungsspuren sichtbar, ja im wahrsten Sinne des Wortes begreifbar. Und immer wieder alte Holzbalken, solche mit Geschichte. Die eigene Geschichte des Holzes mit der entstehenden Skulptur zu verbinden ist ein große Herausforderung.</p></section>
 		</article>
 
+		<article>
+			<article id="ausstellungen" class="columns bordered">
+
+					<section>
+						<header>
+							<h1>Eine Auswahl vergangener Ausstellungen</h1> <!-- Kurt ADAM Arnold: ? -->
+							<!--<h2></h2>-->
+						</header>
+						<ul class="vita-list">
+						{% for event in site.data.vita %}
+							<li>
+								{{ event.year }} — <span class="colored-text"> {{ event.place }}</span> {% if event.title %} <span class=""> — „{{ event.title }}“</span>{% endif %} <span class="caps">{{ event.kind }} {{ event.comment }}</span>
+							</li>
+						{% endfor %}
+						</ul>
+						<footer>
+							<p class="postinfo">03.08.2017</p>
+						</footer>
+
+		</article>
+		</article>
 
 <!--		<section>
 
