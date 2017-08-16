@@ -577,6 +577,11 @@ nav.subnav ul li {
   display: inline-block;
 }
 
+/* line 9, ../components/_lists.scss */
+.vita-list li span.colored-text {
+  display: inline;
+}
+
 /*! Swipebox v1.2.8 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
 /* line 2, ../components/_swipebox.scss */
 html.swipebox-html.swipebox-touch {
@@ -937,38 +942,38 @@ a.top-border {
 /* line 2, ../pages/_home.scss */
 .important-info figure {
   max-width: 100%;
-  /*width:100%;*/
+  width: 100%;
   margin-bottom: 40px;
 }
 
-/* line 3, ../pages/_home.scss */
+/* line 6, ../pages/_home.scss */
 .important-info figure img {
   max-width: 100%;
 }
 
-/* line 4, ../pages/_home.scss */
+/* line 7, ../pages/_home.scss */
 .important-info figure figcaption {
   max-width: 100%;
 }
 
 @media only screen and (min-width: 444px) {
-  /* line 9, ../pages/_home.scss */
+  /* line 12, ../pages/_home.scss */
   .important-info {
     text-align: left;
   }
 
-  /* line 10, ../pages/_home.scss */
+  /* line 13, ../pages/_home.scss */
   .important-info h2 {
     margin-bottom: 40px;
   }
 
-  /* line 11, ../pages/_home.scss */
+  /* line 14, ../pages/_home.scss */
   .important-info p {
     text-align: center;
   }
 }
 @media only screen and (min-width: 600px) {
-  /* line 16, ../pages/_home.scss */
+  /* line 19, ../pages/_home.scss */
   .important-info figure {
     max-width: 40%;
     margin-bottom: 0;
