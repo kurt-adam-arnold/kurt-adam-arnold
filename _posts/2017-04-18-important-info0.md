@@ -7,7 +7,7 @@ title: 'Offenes Atelier in den Werkräumen der Illertstraße'
 author: Kurt ADAM Arnold
 category: important-info
 image: 'offenes-atelier/offenes-atelier2-400.jpg'
-caption: '"Werkraum in der Illertstraße beim Offenen Atelier in Viernheim"'
+caption: 'Werkraum in der Illertstraße beim Offenen Atelier in Viernheim'
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
 ---

@@ -7,7 +7,7 @@ title: '"Kunstverein zeigt Bilder und Skulpturen zum Thema TORSO"'
 author: Kurt ADAM Arnold
 category: important-info
 image: 'malerei/gipfeltreffen-orange_dominiert_2011_400.jpg'
-caption: '"Gipfeltreffen; Orange dominiert"'
+caption: 'Gipfeltreffen; Orange dominiert'
 ---
 
 Das klassische Thema wird von den Teilnehmern in individueller Weise bearbeitet und bietet einen spannenden Einblick in die unterschiedlichen Techniken und Arbeitsweisen der Künstler.

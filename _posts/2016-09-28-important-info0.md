@@ -7,7 +7,7 @@ title: '"Gratwanderungen - Malerei und Skulptur"'
 author: Kurt ADAM Arnold
 category: important-info
 image: 'skulpturen/skulptur_ohne_titel_2016.jpg'
-caption: '"Die Skulptur <em>Ohne Titel</em> steht noch die letzten Tage in Großkarlbach."'
+caption: 'Die Skulptur <em>Ohne Titel</em> stand ihre letzten Tage in Großkarlbach.'
 ---
 
 Meine Ausstellung "Gratwanderungen - Malerei und Skulptur" im Kunst- und Kulturverein Sieben Mühlen Großkarlbach wurde am 02.10. im Rahmen einer Finissage beendet.
