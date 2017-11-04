@@ -109,8 +109,7 @@ figcaption {
 /* line 31, ../base/_typography.scss */
 .caps {
   font-variant: small-caps;
-//  font-variant-caps: all-small-caps;
-  text-transform: lowercase;
+  font-variant-caps: all-small-caps;
 }
 
 /* line 36, ../base/_typography.scss */
