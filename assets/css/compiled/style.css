@@ -108,39 +108,39 @@ figcaption {
 
 /* line 31, ../base/_typography.scss */
 .caps {
+  text-transform: lowercase;
   font-variant: small-caps;
-  font-variant-caps: all-small-caps;
 }
 
-/* line 36, ../base/_typography.scss */
+/* line 37, ../base/_typography.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 38, ../base/_typography.scss */
+/* line 39, ../base/_typography.scss */
 .colored-text {
   color: #C97100;
 }
 
-/* line 40, ../base/_typography.scss */
+/* line 41, ../base/_typography.scss */
 .small-text {
   font-size: .6em;
 }
 
 @media only screen and (min-width: 600px) {
-  /* line 47, ../base/_typography.scss */
+  /* line 48, ../base/_typography.scss */
   h1 {
     font-size: 150%;
     margin-bottom: 16px;
   }
 
-  /* line 48, ../base/_typography.scss */
+  /* line 49, ../base/_typography.scss */
   h2 {
     font-size: 112%;
     margin: 0;
   }
 
-  /* line 50, ../base/_typography.scss */
+  /* line 51, ../base/_typography.scss */
   h3 {
     font-size: 112%;
     margin-top: 30px;
@@ -148,7 +148,7 @@ figcaption {
     /*padding-bottom: 16px;*/
   }
 
-  /* line 51, ../base/_typography.scss */
+  /* line 52, ../base/_typography.scss */
   p {
     max-width: 1000px;
     text-indent: 20px;
@@ -156,29 +156,29 @@ figcaption {
     /*margin: 0;*/
   }
 
-  /* line 52, ../base/_typography.scss */
+  /* line 53, ../base/_typography.scss */
   section p:first-of-type {
     text-indent: 0;
   }
 
-  /* line 54, ../base/_typography.scss */
+  /* line 55, ../base/_typography.scss */
   .maincontent article.impressum {
     text-align: justify;
   }
 }
 @media only screen and (min-width: 800px) {
-  /* line 61, ../base/_typography.scss */
+  /* line 62, ../base/_typography.scss */
   body {
     font-size: 120%;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 67, ../base/_typography.scss */
+  /* line 68, ../base/_typography.scss */
   body {
     font-size: 90%;
   }
 
-  /* line 69, ../base/_typography.scss */
+  /* line 70, ../base/_typography.scss */
   h2 {
     margin-bottom: 10px;
   }
