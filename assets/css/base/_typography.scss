@@ -29,8 +29,9 @@ figcaption{
 }
 
 .caps{
+  text-transform: lowercase;
   font-variant: small-caps;
-  font-variant-caps: all-small-caps;
+  // font-variant-caps: all-small-caps; // This fails hard in SAFARI
 }
 
 .italic{font-style: italic;}
