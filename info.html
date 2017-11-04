@@ -260,9 +260,10 @@ ggf. in einer zusätzlichen "Nebenspalte" schreiben, damit Weißraum gewinnen un
 							<!--<h2></h2>-->
 						</header>
 						<ul class="vita-list">
-						{% for event in site.data.vita %}
+					<!-- {% assign sorted_vita = site.data.vita | reversed %} -->
+						{% for event in sorted_vita reversed %}
 							<li>
-								{{ event.year }} — <span class="colored-text"> {{ event.place }}</span> {% if event.title %} <span class=""> — „{{ event.title }}“</span>{% endif %} <span class="caps">{{ event.kind }} {{ event.comment }}</span>
+								{{ event.year}} — <span class="colored-text"> {{ event.place }}</span> {% if event.title %} <span class=""> — „{{ event.title }}“</span>{% endif %} <span class="caps">{{ event.kind }} {{ event.comment }}</span>
 							</li>
 						{% endfor %}
 						</ul>
