@@ -19,3 +19,14 @@ Am 22.09. von 16.00 – 21.00 Uhr,<br>
 am 23.09. von 14.00 – 19.00 Uhr.
 
  Wie immer in den Werkräumen der Illertstraße 11, 68519 Viernheim.
+
+<br>Am Sonntag spielen DoserGroove:
+
+Benjamin Doser: dr // Jürgen Adler: git, bs, voc // Simon Hölldorfer: keys
+
+![DoserGroove](assets/img/bilder/offenes-atelier/Dosergroove_1.jpg "DoserGroove")
+
+
+
+DoserGroove baut musikalische Brücken zwischen den Klassikern amerikanischer Popmusik
+über Soul und Cooljazz der 50er hin zum Funk und Jazzrock der 70er Jahre. Hits großartiger Komponisten wie z.B. Stevie Wonder und Herbie Hancock werden teils eigenwillig und bisher ungehört interpretiert, und oft durch die im Blues und Soul verwurzelte Stimme von Jürgen Adler bereichert.
