@@ -420,7 +420,7 @@ nav.subnav ul li {
 @media only screen and (max-width: 480px) {
   /* line 47, ../layout/_footer.scss */
   .mainfooter ul li {
-    width: 50%;
+    width: 33.333333%;
     box-sizing: border-box;
     margin: 0 0 12px;
     text-align: center;
@@ -965,11 +965,6 @@ a.top-border {
   /* line 13, ../pages/_home.scss */
   .important-info h2 {
     margin-bottom: 40px;
-  }
-
-  /* line 14, ../pages/_home.scss */
-  .important-info p {
-    text-align: center;
   }
 }
 @media only screen and (min-width: 600px) {
