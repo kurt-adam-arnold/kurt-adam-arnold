@@ -8,6 +8,7 @@ author: Kurt ADAM Arnold
 category: important-info
 image: 'offenes-atelier/offenes-atelier2-400.jpg'
 caption: 'Werkraum in der Illertstraße beim Offenen Atelier in Viernheim'
+published: false
 ---
 
 Im Rahmen des Kultursommers Südhessen (KUSS) fand mein Offenes Atelier am Wochenende des 17. und 18. Septembers statt. Es gab Live-Musik, Snacks, Getränke und Gespräche über Kunst – Jeweils von 15.00 – 20.00 Uhr.

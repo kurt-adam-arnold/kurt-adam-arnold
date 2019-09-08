@@ -10,6 +10,7 @@ image: 'offenes-atelier/kuss2017_400.jpeg'
 caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
+published: false
 ---
 
 _Über das letzte Offene Atelier vom 22. bis 23. September._

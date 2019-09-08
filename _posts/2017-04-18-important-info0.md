@@ -10,6 +10,7 @@ image: 'offenes-atelier/offenes-atelier2-400.jpg'
 caption: 'Werkraum in der Illertstraße beim Offenen Atelier in Viernheim'
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
+published: false
 ---
 
  Am Sonntag, den 30.04.2017 startete mein neu konzipiertes Offenes Atelier um 16.00 Uhr in den Werkräumen der Illertstraße 11, 68519 Viernheim.

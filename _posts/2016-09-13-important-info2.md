@@ -8,6 +8,7 @@ author: Kurt ADAM Arnold
 category: important-info
 image: 'offenes-atelier/offenes-atelier1-400.jpg'
 caption: 'Die Skulptur <em>Grübelnder König</em> im Freien'
+published: false
 ---
 
 Meine Ausstellung "Gratwanderungen - Malerei und Skulptur" im Kunst- und Kulturverein Sieben Mühlen Großkarlbach lief vom 18.09. – 02.10.
