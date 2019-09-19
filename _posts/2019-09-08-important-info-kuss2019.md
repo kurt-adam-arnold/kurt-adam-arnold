@@ -12,7 +12,7 @@ caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 #caption: '"Bei der Arbeit…"'
 ---
 
-_Offenes Atelier: <br>21.09. von 16.00---21.00 Uhr, <br>22.09. von 15.00---19.00 Uhr._
+_Offenes Atelier: <br>21.09. von 16.00 --- 21.00 Uhr, <br>22.09. von 15.00 --- 19.00 Uhr._
 
 Auch dieses Jahr öffne ich meine Werkräume und präsentiere neue Arbeiten im Rahmen des Kultursommers Südhessen. Am Samstagabend gibt es Live-Musik von **MUDCAT**. Am Sonntag gibt es – zusätzlich zu Snacks, Kuchen und diversen Getränken – _Kaffee aus Eritrea,_ frisch vor Ort geröstet und auf traditionelle Art zubereitet.
 
