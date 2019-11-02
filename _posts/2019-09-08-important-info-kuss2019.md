@@ -8,6 +8,7 @@ author: Kurt ADAM Arnold
 category: important-info
 image: 'offenes-atelier/kuss2017-0A1_1200.JPG'
 caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
+published: false
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
 ---
