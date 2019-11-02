@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* line 1, ../abstracts/_mixins.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -8,7 +7,6 @@
   visibility: hidden;
 }
 
-/* line 1, ../base/_base.scss */
 body {
   background-color: #fff;
   font-size: 100%;
@@ -16,7 +14,6 @@ body {
   line-height: 1.4;
 }
 
-/* line 8, ../base/_base.scss */
 .body {
   margin: 0 auto;
   width: 90%;
@@ -24,7 +21,6 @@ body {
   clear: both;
 }
 
-/* line 15, ../base/_base.scss */
 .bordered {
   /*reset*/
   border: none;
@@ -44,7 +40,6 @@ body {
 }
 */
 @media only screen and (max-width: 740px) {
-  /* line 34, ../base/_base.scss */
   .bordered {
     /*reset*/
     border: none;
@@ -56,7 +51,6 @@ body {
     border-bottom: 3px solid #C97100;
   }
 }
-/* line 49, ../base/_base.scss */
 .container {
   position: relative;
   height: 360px;
@@ -67,12 +61,10 @@ body {
   /*border-right:1px solid white;	*/
 }
 
-/* line 1, ../base/_reset.scss */
 ul li {
   list-style: none;
 }
 
-/* line 1, ../base/_typography.scss */
 body {
   font-variant-numeric: oldstyle-nums;
   -webkit-font-feature-settings: "onum" 1;
@@ -83,7 +75,6 @@ body {
   font-feature-settings: "onum" 1;
 }
 
-/* line 12, ../base/_typography.scss */
 p.postinfo {
   text-align: right;
   font-style: italic;
@@ -92,7 +83,6 @@ p.postinfo {
   text-transform: lowercase;
 }
 
-/* line 19, ../base/_typography.scss */
 figcaption {
   text-align: center;
   float: none;
@@ -100,47 +90,39 @@ figcaption {
   margin-bottom: 20px;
 }
 
-/* line 26, ../base/_typography.scss */
 .info h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-/* line 31, ../base/_typography.scss */
 .caps {
   text-transform: lowercase;
   font-variant: small-caps;
 }
 
-/* line 37, ../base/_typography.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 39, ../base/_typography.scss */
 .colored-text {
   color: #C97100;
 }
 
-/* line 41, ../base/_typography.scss */
 .small-text {
-  font-size: .6em;
+  font-size: 0.6em;
 }
 
 @media only screen and (min-width: 600px) {
-  /* line 48, ../base/_typography.scss */
   h1 {
     font-size: 150%;
     margin-bottom: 16px;
   }
 
-  /* line 49, ../base/_typography.scss */
   h2 {
     font-size: 112%;
     margin: 0;
   }
 
-  /* line 51, ../base/_typography.scss */
   h3 {
     font-size: 112%;
     margin-top: 30px;
@@ -148,7 +130,6 @@ figcaption {
     /*padding-bottom: 16px;*/
   }
 
-  /* line 52, ../base/_typography.scss */
   p {
     max-width: 1000px;
     text-indent: 20px;
@@ -156,34 +137,28 @@ figcaption {
     /*margin: 0;*/
   }
 
-  /* line 53, ../base/_typography.scss */
   section p:first-of-type {
     text-indent: 0;
   }
 
-  /* line 55, ../base/_typography.scss */
   .maincontent article.impressum {
     text-align: justify;
   }
 }
 @media only screen and (min-width: 800px) {
-  /* line 62, ../base/_typography.scss */
   body {
     font-size: 120%;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 68, ../base/_typography.scss */
   body {
     font-size: 90%;
   }
 
-  /* line 70, ../base/_typography.scss */
   h2 {
     margin-bottom: 10px;
   }
 }
-/* line 1, ../base/_images.scss */
 img.profil {
   width: 300px;
   float: right;
@@ -191,41 +166,34 @@ img.profil {
   max-width: 50%;
 }
 
-/* line 2, ../base/_images.scss */
 img {
   max-width: 100%;
 }
 
-/* line 3, ../base/_images.scss */
 figure {
   margin: 0;
 }
 
-/* line 6, ../base/_images.scss */
 figure.img-in-article {
   overflow: hidden;
   max-width: 40%;
 }
 
-/* line 11, ../base/_images.scss */
 figure.img-in-article:nth-of-type(even) {
   float: right;
   margin: 0 0 0 20px;
 }
 
-/* line 15, ../base/_images.scss */
 figure.img-in-article:nth-of-type(odd) {
   float: left;
   margin: 0 20px 0 0;
 }
 
-/* line 19, ../base/_images.scss */
 figure.img-in-article figcaption {
   max-width: 400px;
   font-size: 70%;
 }
 
-/* line 23, ../base/_images.scss */
 figure.img-in-article img {
   width: 100%;
   max-width: 400px;
@@ -234,7 +202,6 @@ figure.img-in-article img {
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 33, ../base/_images.scss */
   img.profil {
     max-width: 100%;
     width: 100%;
@@ -242,32 +209,27 @@ figure.img-in-article img {
 }
 @media only screen and (min-width: 600px) {
   /*Desktop etc...*/
-  /* line 39, ../base/_images.scss */
   figure {
     margin: 0 0 40px;
   }
 
   /* Bilder */
-  /* line 41, ../base/_images.scss */
   figure.title img {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
   }
 
-  /* line 47, ../base/_images.scss */
   .profilbild {
     max-width: 300px;
   }
 }
 /*box sizing */
-/* line 3, ../layout/_navigation.scss */
 .mainheader nav ul li, .mainheader nav ul {
   box-sizing: border-box;
 }
 
 /*basic navigation*/
-/* line 9, ../layout/_navigation.scss */
 .mainheader nav {
   margin: 0 auto;
   background-color: #fff;
@@ -276,7 +238,6 @@ figure.img-in-article img {
   /*			padding-bottom: 10px;	wozu? Stört im mobildesign! */
 }
 
-/* line 16, ../layout/_navigation.scss */
 .mainheader nav ul {
   list-style: none;
   font-size: 150%;
@@ -287,7 +248,6 @@ figure.img-in-article img {
   overflow: hidden;
 }
 
-/* line 26, ../layout/_navigation.scss */
 .mainheader nav ul li {
   width: 25%;
   float: left;
@@ -295,7 +255,6 @@ figure.img-in-article img {
   text-align: center;
 }
 
-/* line 33, ../layout/_navigation.scss */
 .mainheader nav a:link, .mainheader nav a:visited {
   color: #000;
   display: inline-block;
@@ -303,12 +262,10 @@ figure.img-in-article img {
   height: 20px;
 }
 
-/* line 40, ../layout/_navigation.scss */
 .mainheader nav .active a:link, .mainheader nav .active a:visited, .mainheader nav a:hover, .mainheader nav a:active {
   color: #C97100;
 }
 
-/* line 44, ../layout/_navigation.scss */
 nav.subnav {
   background-color: #fff;
   border: none;
@@ -316,7 +273,6 @@ nav.subnav {
   padding-top: 20px;
 }
 
-/* line 50, ../layout/_navigation.scss */
 nav.subnav ul li {
   width: auto;
 }
@@ -330,7 +286,6 @@ nav.subnav ul li {
   					padding:0;
   				}
   */
-  /* line 66, ../layout/_navigation.scss */
   .mainheader nav ul li {
     /*	width:auto;
     	max-width: 25%;
@@ -341,7 +296,6 @@ nav.subnav ul li {
     height: auto;
   }
 
-  /* line 75, ../layout/_navigation.scss */
   .mainheader nav ul li a {
     display: inline-block;
     width: 100%;
@@ -349,7 +303,6 @@ nav.subnav ul li {
     height: 100%;
   }
 
-  /* line 81, ../layout/_navigation.scss */
   .mainheader nav ul li a:link {
     height: auto;
   }
@@ -357,26 +310,22 @@ nav.subnav ul li {
   /*.mainheader nav ul li {
   	width:auto;
   }*/
-  /* line 87, ../layout/_navigation.scss */
   .mainheader nav a:link, .mainheader nav a:visited {
     padding: 10px;
   }
 }
 @media only screen and (min-width: 600px) {
   /* NAVIGATION */
-  /* line 94, ../layout/_navigation.scss */
   .mainheader nav {
     /*height: 40px;*/
     max-width: 1000px;
   }
 
-  /* line 98, ../layout/_navigation.scss */
   .mainheader nav a:link, .mainheader nav a:visited {
     padding: 10px 25px;
     height: 20px;
   }
 }
-/* line 1, ../layout/_footer.scss */
 .mainfooter ul {
   min-height: 40px;
   /*			width: 80%;	*/
@@ -388,7 +337,6 @@ nav.subnav ul li {
 }
 
 /*#######	footer	#########*/
-/* line 15, ../layout/_footer.scss */
 .mainfooter {
   margin: 0 auto;
   padding-top: 10px;
@@ -397,14 +345,12 @@ nav.subnav ul li {
   max-width: 1000px;
 }
 
-/* line 25, ../layout/_footer.scss */
 .mainfooter ul {
   padding: 0;
   margin: 0 auto;
   width: 98%;
 }
 
-/* line 33, ../layout/_footer.scss */
 .mainfooter ul li {
   float: right;
   display: inline;
@@ -412,13 +358,11 @@ nav.subnav ul li {
   margin: 0 12px;
 }
 
-/* line 39, ../layout/_footer.scss */
 .mainfooter ul li a {
   margin: 0 auto;
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 47, ../layout/_footer.scss */
   .mainfooter ul li {
     width: 33.333333%;
     box-sizing: border-box;
@@ -427,13 +371,11 @@ nav.subnav ul li {
   }
 }
 @media only screen and (min-width: 600px) {
-  /* line 3, ../components/_gallery-malerei.scss */
   .slideshow.paint {
     margin: 80px 0;
   }
 }
 @media only screen and (min-width: 444px) {
-  /* line 10, ../components/_gallery-malerei.scss */
   .slideshow.paint figure div {
     max-width: 50%;
     float: left;
@@ -447,43 +389,38 @@ nav.subnav ul li {
   /* gilt seltsamerweise für alle*/
 }
 @media only screen and (min-width: 900px) {
-  /* line 30, ../components/_gallery-malerei.scss */
   .slideshow.paint figure div {
     max-width: 33.333333333%;
   }
 }
 @media only screen and (min-width: 1354px) {
-  /* line 37, ../components/_gallery-malerei.scss */
   .slideshow.paint figure {
     max-width: 2000px;
     margin: 0 auto;
   }
 
-  /* line 41, ../components/_gallery-malerei.scss */
   .slideshow.paint figure div {
     width: 25%;
     max-width: 100%;
   }
 
-  /* line 45, ../components/_gallery-malerei.scss */
   .slideshow.paint figure div img {
     /*width:25%;*/
   }
 }
 @media only screen and (min-width: 941px) {
-  /* line 52, ../components/_gallery-malerei.scss */
   .slideshow.paint figure div {
-    	/*					width: 400px;
-    						margin:10px;
-    						float: left;
-    
-    						height:400px;*/
+    /*					width: 400px;
+    					margin:10px;
+    					float: left;
+
+    					height:400px;*/
     position: relative;
   }
 
   /*
   .slideshow.paint figure img{
-  
+
   						position: absolute;
   						bottom: 0;
   						left: 0;
@@ -491,7 +428,6 @@ nav.subnav ul li {
   */
 }
 @media only screen and (min-width: 600px) {
-  /* line 3, ../components/_gallery-skulpturen.scss */
   .slideshow.sculp {
     margin: 80px 0;
   }
@@ -506,7 +442,7 @@ nav.subnav ul li {
   /*display flex may be the best and simplest solution */
   /*
   // Compass-based centering based on image-width; Workflow needed to calculate those for any given image (array). (for-Schleife)
-  
+
   $image-width2: image-width('bilder/skulpturen/der_linkstraeger_2014_400.jpg');
                 margin: 0 0 0 (-$image-width2/2);
   */
@@ -519,7 +455,6 @@ nav.subnav ul li {
     bottom: 0;
   }
   */
-  /* line 50, ../components/_gallery-skulpturen.scss */
   .slideshow.sculp figure div {
     width: 200px;
     margin: 0;
@@ -530,24 +465,20 @@ nav.subnav ul li {
 }
 @media only screen and (min-width: 600px) {
   /*slideshow*/
-  /* line 5, ../components/_gallery.scss */
   .slideshow figure {
     /*	width:;	*/
   }
 
-  /* line 8, ../components/_gallery.scss */
   .slideshow figure.height200 a.swipebox {
     width: 600px;
   }
 
-  /* line 11, ../components/_gallery.scss */
   .slideshow figure.height200 img {
     height: 200px;
     width: auto;
     margin: 0 auto;
   }
 
-  /* line 16, ../components/_gallery.scss */
   .slideshow figure img {
     /*width: 100%;*/
     max-height: 100%;
@@ -556,44 +487,36 @@ nav.subnav ul li {
     bottom: 0;
   }
 
-  /* line 24, ../components/_gallery.scss */
   .slideshow.paint figure img {
     position: relative;
   }
 
-  /* line 31, ../components/_gallery.scss */
   .slideshow figure div.threetimes {
     width: 600px;
     margin: 0;
   }
 }
-/* line 1, ../components/_lists.scss */
 .vita-list li {
   margin-top: 12px;
 }
 
-/* line 5, ../components/_lists.scss */
 .vita-list li span {
   display: inline-block;
 }
 
-/* line 9, ../components/_lists.scss */
 .vita-list li span.colored-text {
   display: inline;
 }
 
 /*! Swipebox v1.2.8 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
-/* line 2, ../components/_swipebox.scss */
 html.swipebox-html.swipebox-touch {
   overflow: hidden !important;
 }
 
-/* line 6, ../components/_swipebox.scss */
 #swipebox-overlay img {
   border: none !important;
 }
 
-/* line 10, ../components/_swipebox.scss */
 #swipebox-overlay {
   width: 100%;
   height: 100%;
@@ -608,7 +531,6 @@ html.swipebox-html.swipebox-touch {
   user-select: none;
 }
 
-/* line 24, ../components/_swipebox.scss */
 #swipebox-slider {
   height: 100%;
   left: 0;
@@ -619,7 +541,6 @@ html.swipebox-html.swipebox-touch {
   display: none;
 }
 
-/* line 33, ../components/_swipebox.scss */
 #swipebox-slider .slide {
   background: url(../../img/loader.gif) no-repeat center center;
   height: 100%;
@@ -629,7 +550,6 @@ html.swipebox-html.swipebox-touch {
   display: inline-block;
 }
 
-/* line 41, ../components/_swipebox.scss */
 #swipebox-slider .slide:before {
   content: "";
   display: inline-block;
@@ -638,7 +558,6 @@ html.swipebox-html.swipebox-touch {
   margin-right: -1px;
 }
 
-/* line 49, ../components/_swipebox.scss */
 #swipebox-slider .slide img, #swipebox-slider .slide .swipebox-video-container {
   display: inline-block;
   max-height: 100%;
@@ -655,7 +574,6 @@ html.swipebox-html.swipebox-touch {
 }
 
 /*user defined*/
-/* line 67, ../components/_swipebox.scss */
 #swipebox-slider .slide img {
   max-width: 90%;
   max-height: 90%;
@@ -663,7 +581,6 @@ html.swipebox-html.swipebox-touch {
 }
 
 /*end of user definition*/
-/* line 75, ../components/_swipebox.scss */
 #swipebox-slider .slide .swipebox-video-container {
   background: none;
   max-width: 1140px;
@@ -675,7 +592,6 @@ html.swipebox-html.swipebox-touch {
   -moz-box-sizing: border-box;
 }
 
-/* line 85, ../components/_swipebox.scss */
 #swipebox-slider .slide .swipebox-video-container .swipebox-video {
   width: 100%;
   height: 0;
@@ -684,7 +600,6 @@ html.swipebox-html.swipebox-touch {
   position: relative;
 }
 
-/* line 92, ../components/_swipebox.scss */
 #swipebox-slider .slide .swipebox-video-container .swipebox-video iframe {
   width: 100% !important;
   height: 100% !important;
@@ -693,7 +608,6 @@ html.swipebox-html.swipebox-touch {
   left: 0;
 }
 
-/* line 100, ../components/_swipebox.scss */
 #swipebox-action,
 #swipebox-caption {
   position: absolute;
@@ -703,19 +617,16 @@ html.swipebox-html.swipebox-touch {
   width: 100%;
 }
 
-/* line 109, ../components/_swipebox.scss */
 #swipebox-action {
   bottom: -50px;
 }
 
-/* line 114, ../components/_swipebox.scss */
 #swipebox-action.visible-bars {
   -ms-transform: translateY(-50px);
   -webkit-transform: translateY(-50px);
   transform: translateY(-50px);
 }
 
-/* line 121, ../components/_swipebox.scss */
 #swipebox-action #swipebox-prev,
 #swipebox-action #swipebox-next,
 #swipebox-action #swipebox-close {
@@ -730,31 +641,26 @@ html.swipebox-html.swipebox-touch {
   top: 0;
 }
 
-/* line 134, ../components/_swipebox.scss */
 #swipebox-action #swipebox-prev {
   background-position: -32px 13px;
   right: 100px;
 }
 
-/* line 138, ../components/_swipebox.scss */
 #swipebox-action #swipebox-next {
   background-position: -78px 13px;
   right: 40px;
 }
 
-/* line 142, ../components/_swipebox.scss */
 #swipebox-action #swipebox-close {
   background-position: 15px 12px;
   left: 40px;
 }
 
-/* line 146, ../components/_swipebox.scss */
 #swipebox-action #swipebox-prev.disabled,
 #swipebox-action #swipebox-next.disabled {
   opacity: 0.3;
 }
 
-/* line 151, ../components/_swipebox.scss */
 #swipebox-caption {
   bottom: 50px;
   /*user change*/
@@ -767,20 +673,17 @@ html.swipebox-html.swipebox-touch {
   margin-left: 15%;
 }
 
-/* line 161, ../components/_swipebox.scss */
 #swipebox-caption.visible-bars {
   -ms-transform: translateY(50px);
   -webkit-transform: translateY(50px);
   transform: translateY(50px);
 }
 
-/* line 167, ../components/_swipebox.scss */
 #swipebox-slider.rightSpring {
   -webkit-animation: rightSpring 0.3s;
   animation: rightSpring 0.3s;
 }
 
-/* line 172, ../components/_swipebox.scss */
 #swipebox-slider.leftSpring {
   -webkit-animation: leftSpring 0.3s;
   animation: leftSpring 0.3s;
@@ -831,29 +734,24 @@ html.swipebox-html.swipebox-touch {
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 231, ../components/_swipebox.scss */
   #swipebox-action #swipebox-close {
     left: 0;
   }
 
-  /* line 235, ../components/_swipebox.scss */
   #swipebox-action #swipebox-prev {
     right: 60px;
   }
 
-  /* line 239, ../components/_swipebox.scss */
   #swipebox-action #swipebox-next {
     right: 0;
   }
 }
 /* Skin
 --------------------------*/
-/* line 245, ../components/_swipebox.scss */
 #swipebox-overlay {
   background: #0d0d0d;
 }
 
-/* line 249, ../components/_swipebox.scss */
 #swipebox-action,
 #swipebox-caption {
   text-shadow: 1px 1px 1px black;
@@ -861,16 +759,14 @@ html.swipebox-html.swipebox-touch {
   background-color: #0d0d0d;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0d0d0d), to(black));
   background-image: -webkit-linear-gradient(top, #0d0d0d, black);
-  background-image: linear-gradient(to bottom, #0d0d0d, #000000);
+  background-image: linear-gradient(to bottom, #0d0d0d, black);
   opacity: 0.95;
 }
 
-/* line 260, ../components/_swipebox.scss */
 #swipebox-action {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* line 264, ../components/_swipebox.scss */
 #swipebox-caption {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   color: white !important;
@@ -879,25 +775,21 @@ html.swipebox-html.swipebox-touch {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 1, ../components/_links.scss */
 a {
   text-decoration: none;
 }
 
-/* line 2, ../components/_links.scss */
 a.standard:link, a.standard:visited {
   color: black;
   border-bottom: solid #C98100 1px;
   padding-bottom: 6px;
 }
 
-/* line 8, ../components/_links.scss */
 a.standard:hover, a.standard:active {
   color: #C97100;
   /*C98100?*/
 }
 
-/* line 13, ../components/_links.scss */
 a.inlinelink:link, a.inlinelink:visited {
   color: #555;
   border-bottom: solid #C98100 1px;
@@ -907,90 +799,83 @@ a.inlinelink:link, a.inlinelink:visited {
   font-variant: small-caps;
 }
 
-/* line 26, ../components/_links.scss */
 a.inlinelink:hover, a.inlinelink:active {
   color: #C97100;
   /*C98100?*/
 }
 
-/* line 30, ../components/_links.scss */
 a.top-border {
   border-top: solid #C98100 1px;
   padding-top: 4px;
 }
 
 @media only screen and (min-width: 800px) {
-  /* line 3, ../components/_articles.scss */
   article.columns section {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 8, ../components/_articles.scss */
   article section {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
 }
-/* line 1, ../pages/_home.scss */
 .important-info {
   overflow: hidden;
 }
 
-/* line 2, ../pages/_home.scss */
 .important-info figure {
   max-width: 100%;
   width: 100%;
   margin-bottom: 40px;
 }
 
-/* line 6, ../pages/_home.scss */
 .important-info figure img {
   max-width: 100%;
 }
 
-/* line 7, ../pages/_home.scss */
 .important-info figure figcaption {
   max-width: 100%;
 }
 
+.important-info code {
+  display: inline-block;
+}
+
+code {
+  display: inline-block;
+}
+
 @media only screen and (min-width: 444px) {
-  /* line 12, ../pages/_home.scss */
   .important-info {
     text-align: left;
   }
 
-  /* line 13, ../pages/_home.scss */
   .important-info h2 {
     margin-bottom: 40px;
   }
 }
 @media only screen and (min-width: 600px) {
-  /* line 19, ../pages/_home.scss */
   .important-info figure {
     max-width: 40%;
     margin-bottom: 0;
   }
 }
-/* line 1, ../pages/_contact.scss */
 .contact {
   text-align: center;
   font-size: 112%;
 }
 
-/* line 5, ../pages/_contact.scss */
 .contact p {
   text-align: center;
 }
 
-/* line 9, ../pages/_contact.scss */
 .contact section:nth-of-type(1) {
   margin-top: 60px;
 }
 
-/* line 12, ../pages/_contact.scss */
 .maincontent article.contact section {
   width: 96%;
   max-width: 100%;
@@ -1001,70 +886,58 @@ a.top-border {
   padding: 10px;
 }
 
-/* line 23, ../pages/_contact.scss */
 .maincontent article.contact:nth-of-type(1) {
   border-top: 12px solid black;
 }
 
-/* line 1, ../pages/_impressum.scss */
 .maincontent.impressum {
   font-size: 90%;
 }
 
-/* line 2, ../pages/_impressum.scss */
 .maincontent article.impressum {
   max-width: 100%;
   width: 940px;
   margin: 0 auto;
 }
 
-/* line 1, ../pages/_werke.scss */
 div.werke p {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 6, ../pages/_werke.scss */
 .werke h1 {
   max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 12px;
 }
 
-/* line 12, ../pages/_werke.scss */
 .gemaelde .container-new {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-/* line 1, ../_shame.scss */
 .slideshow img:hover, .container-new img:hover {
   opacity: 0.8;
 }
 
 /* Content */
-/* line 7, ../_shame.scss */
 .maincontent {
   margin-top: 100px;
 }
 
-/* line 10, ../_shame.scss */
 .maincontent.sculp, .maincontent.paint {
   margin-top: 30px;
 }
 
-/* line 13, ../_shame.scss */
 article {
   margin-bottom: 80px;
 }
 
-/* line 16, ../_shame.scss */
 article.columns.bordered {
   max-width: 1000px;
   margin: 0 auto 80px;
 }
 
-/* line 20, ../_shame.scss */
 div.mobile-only {
   text-align: center;
   margin: 60px auto 20px;
@@ -1072,24 +945,20 @@ div.mobile-only {
 
 /*#######	Inhaltskästen	#########*/
 /* nötig???	*/
-/* line 27, ../_shame.scss */
 .twocolumn {
   width: 100%;
 }
 
-/* line 33, ../_shame.scss */
 .twocolumn div:nth-child(1) {
   float: left;
   width: 30%;
   width: 100%;
 }
 
-/* line 39, ../_shame.scss */
 div.container-new p {
   width: 30%;
 }
 
-/* line 42, ../_shame.scss */
 div.container-new img {
   max-width: 100%;
   max-height: 100%;
@@ -1097,7 +966,6 @@ div.container-new img {
 
 /* nötig???	ENDE*/
 @media only screen and (min-width: 600px) {
-  /* line 49, ../_shame.scss */
   .maincontent article.contact section {
     border-left: solid black 1px;
     border-right: solid black 1px;
@@ -1108,7 +976,6 @@ div.container-new img {
     margin: 0 auto 100px;
   }
 
-  /* line 58, ../_shame.scss */
   .maincontent article.contact:nth-of-type(1) {
     border: none;
   }
@@ -1123,7 +990,6 @@ div.container-new img {
             border-bottom: 1px solid black;
           }
 */
-/* line 77, ../_shame.scss */
 body {
   font-variant-numeric: oldstyle-nums;
   -webkit-font-feature-settings: "onum" 1;
@@ -1135,3 +1001,5 @@ body {
 }
 
 /* messing around with centering methods of the sculpture gallery */
+
+/*# sourceMappingURL=style.css.map */
