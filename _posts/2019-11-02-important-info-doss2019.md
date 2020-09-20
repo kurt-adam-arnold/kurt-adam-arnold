@@ -8,6 +8,7 @@ author: Kurt ADAM Arnold
 category: important-info
 image: 'torso.jpg'
 caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gearbeitet aus drei mitteinander verbundenen Fichtestämmen'
+#published: false
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
 ---
