@@ -22,4 +22,3 @@ Details zum Programm folgen in Kürze hier auf der Homepage.
 
 [Eintrag auf der Webseite des Kultursommers Südhessen](https://www.kultursommer-suedhessen.de/tage-der-offenen-ateliers/veranstaltung/kurt-adam-arnold-werkraum-in-der-illertstrasse-kurt-adam-arnold/1815){: .inlinelink}
 
-[Eintrag auf der Webseite des Kultursommers Südhessen](https://www.kultursommer-suedhessen.de/tage-der-offenen-ateliers/veranstaltung/kurt-adam-arnold-werkraum-in-der-illertstrasse-kurt-adam-arnold/1815){.inlinelink}
