@@ -1,6 +1,6 @@
 ---
-announce-date: '20. SEPT – '
-jahr: '2020'
+announce-date: '18./19. SEPT – '
+jahr: '2021'
 announcement: 'Details zum Programm folgen bald! <br>'
 title: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 #title: 'Werkstatt für individuelle Besucher nach Anmeldung geöffnet'
