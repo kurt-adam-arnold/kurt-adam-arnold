@@ -6,6 +6,7 @@ announcement: 'Veranstaltung abgesagt! <br>'
 title: 'Werkstatt für individuelle Besucher nach Anmeldung geöffnet'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
+published: false
 category: important-info
 image: 'offenes-atelier/kuss2017-0A1_1200.JPG'
 caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
