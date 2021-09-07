@@ -18,29 +18,27 @@ caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 
 Ich freue mich sehr in diesem Jahr wieder zum OFFENEN ATELIER im Rahmen des südhessischen Kultursommers »KUSS« einladen zu können.
  
+`Samstag,  18.09.2021 von 15:00 – 21:00 Uhr`
+`Sonntag,  19.09.2021 von 14:00 – 18:00 Uhr`
+
 Mitte September öffne ich über’s Wochenende meinen Werkraum und zeige alte und neue Arbeiten.
  
 Die Veranstaltung findet überwiegend im Freien statt, diverse Getränke und Brezeln werden bereitstehen. Das Gartengelände ist großräumig überdacht und bietet so auch bei weniger schönem Wetter ausreichend Schutz.
  
-`Samstag,  18.09.2021 von 15:00 – 21:00 Uhr`
-`Sonntag,  19.09.2021 von 14:00 – 18:00 Uhr`
 
 
 ### Livemusik
 
 Wie üblich, wird es Live-Musik geben. Dieses Mal tritt die Band »PLUSH 7« auf – am Sonntag von 16:00 bis 18:00 Uhr.
  
-Vier erfahrene Musiker aus der Region, die den Konzertbesuchern alt- und neubekannte Rocksongs durch die Gehörgänge schicken.
- 
-PLUSH 7, das sind überraschende Songs, die trotzdem jeder kennt und das ist vor allem eine Band, die die Menschen vor der Bühne durch ihre Spielfreude mitreißt. Ungefiltert und nicht hochglanzpoliert. 
- 
-Lasst euch überraschen!
- 
+Vier erfahrene Musiker aus der Region, die den Konzertbesuchern alt- und neubekannte Rocksongs durch die Gehörgänge schicken. PLUSH 7, das sind überraschende Songs, die trotzdem jeder kennt und das ist vor allem eine Band, die die Menschen vor der Bühne durch ihre Spielfreude mitreißt. Ungefiltert und nicht hochglanzpoliert. Lasst euch überraschen!
+
+```
 Manon Schneider vocals, guitar
 Bernd Hocker         guitar, vocals
 Michael Mrozek     bass
 Florian Kaether     drums, vocals
- 
+```
  
  
 
