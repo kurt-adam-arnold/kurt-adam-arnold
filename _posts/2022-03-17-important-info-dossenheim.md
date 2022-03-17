@@ -8,7 +8,7 @@ title: 'Trennendes — Verbindendes: Vernissage in Museumsscheuer Dossenheim'
 author: Kurt ADAM Arnold
 published: true
 category: important-info
-#image: 'offenes-atelier/kuss2017-0A1_1200.JPG'
+image: 'dossenheim_titel.png'
 #caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 #image: 'torso.jpg'
 #caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gearbeitet aus drei mitteinander verbundenen Fichtestämmen'
