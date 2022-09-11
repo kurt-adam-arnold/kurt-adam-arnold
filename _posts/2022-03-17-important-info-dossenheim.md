@@ -1,6 +1,6 @@
 ---
 announce-date: '24. MÄRZ – '
-jahr: '2022'
+jahr: '(2022)'
 #announcement: 'Details zum Programm folgen bald! <br>'
 title: 'Trennendes — Verbindendes: Vernissage in Museumsscheuer Dossenheim'
 #title: 'Werkstatt für individuelle Besucher nach Anmeldung geöffnet'
@@ -16,6 +16,8 @@ caption: 'Die Jury, vollkommen subjektiv (Ausschnitt)'
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
 ---
+
+**Die Ausstellung ist inzwischen beendet.**
 
 Nachdem die Ausstellung _Trennendes — Verbindendes_ immer wieder verschoben werden musste, freue ich mich sehr zur Ausstellung in der Kulturscheune Dossenheim einzuladen zu können. Die Vernissage beginnt am 24.03.2022 um 19.00 Uhr.
 

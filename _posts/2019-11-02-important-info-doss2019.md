@@ -1,6 +1,6 @@
 ---
 announce-date: '9. NOV – '
-jahr: '2019'
+jahr: '(2019)'
 announcement: 'erinnern, vergessen, bewahren <br>'
 title: 'Gruppenausstellung in Dossenheim'
 #date: 18. Juli 2016
@@ -12,6 +12,8 @@ caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gear
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
 ---
+
+**Die Ausstellung ist bereits beendet.**
 
 Zur Vernissage der Ausstellung »erinnern, vergessen, bewahren« am 9.11.2019 um 15:00 Uhr im Rathaus Dossenheim lade ich herzlich ein. Es ist eine Gruppen&shy;ausstellung zum Holocaust&shy;gedenktag bei der auch Arbeiten von mir gezeigt werden.
 
