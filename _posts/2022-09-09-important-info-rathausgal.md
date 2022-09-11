@@ -18,13 +18,14 @@ caption: 'Aufnahme von der Vernissage, im Hintergrund Emilia Kabus an der Harfe.
 
 Arnolds Arbeiten wirken an vielen Stellen wie ein Déjà-Vu: Wie verblasste Erinnerungen, wie Traumgestalten, wie eine Traumszene; wie eben solche Träume, bei denen nur noch eine diffuse Emotion übrig bleibt, wir uns aber nicht mehr an die Traumhandlung erinnern können. Bei Arnolds Gemälden und Skulpturen reicht es nicht aus, sie mit den Augen zu betrachten, sie zu berühren; als Betrachter*in muss man sie mit der Seele wahrnehmen.
 
-RathausGalerie Viernheim | Kettelerstraße 3 | 68519 Viernheim
 
-Öffnungszeiten: Bitte vereinbaren Sie für einen Besuch der Ausstellung einen Termin unter 06204 988-409 oder 988-403.
-Parken: Tiefgarage Hallenbad, Schulstr. | Rathaus Parkplatz
+- Öffnungszeiten: Bitte vereinbaren Sie für einen Besuch der Ausstellung einen Termin unter 06204 988-409 oder 988-403.
+- Parken: Tiefgarage Hallenbad, Schulstr. oder Rathaus Parkplatz
+
+RathausGalerie Viernheim \| Kettelerstraße 3 \| 68519 Viernheim
 
 Weitere Infos auf der [Webseite der RathausGalerie Viernheim](https://www.viernheim.de/kultur-freizeit-sport/kunst-kultur/ausstellungen-und-galerien.html).
 
 
-_Bitte informieren Sie sich über die aktuellen Öffnungszeiten und Zugangsmöglichkeiten. Geplant sind weitere Öffnungszeiten und die Rahmenbedingungen
-hängen von den aktuellen Pandemiebestimmungen ab._
+_Bitte informieren Sie sich über die aktuellen Öffnungs&shy;zeiten und Zugangs&shy;möglich&shy;keiten. Geplant sind weitere Öffnungs&shy;zeiten und die Rahmen&shy;bedingungen
+hängen von den aktuellen Pandemie&shy;bestimmungen ab._
