@@ -8,7 +8,7 @@ title: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 author: Kurt ADAM Arnold
 published: true
 category: important-info
-image: 'offenes-atelier/kuss2017-0A1_1200.JPG'
+image: 'offenes-atelier/oa-600.jpg'
 caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 #image: 'torso.jpg'
 #caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gearbeitet aus drei mitteinander verbundenen Fichtestämmen'
