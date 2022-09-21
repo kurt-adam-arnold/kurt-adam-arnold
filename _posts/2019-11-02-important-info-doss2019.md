@@ -5,7 +5,7 @@ announcement: 'erinnern, vergessen, bewahren <br>'
 title: 'Gruppenausstellung in Dossenheim'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
-category: important-info
+category: past
 image: 'torso.jpg'
 caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gearbeitet aus drei mitteinander verbundenen Fichtestämmen'
 #published: false
@@ -23,13 +23,13 @@ Zur Vernissage der Ausstellung »erinnern, vergessen, bewahren« am 9.11.2019 um
 Sie ist antastbar
 Die Würde des Menschen
 Damals und heute
-Man führt täglich den Beweis 
+Man führt täglich den Beweis
 Damals und heute
 Die Täter von damals
 Die Besorgten von heute
 Mahnen uns
-Der erste Artikel des Grundgesetzes 
-Muss kompromisslos die Devise sein 
+Der erste Artikel des Grundgesetzes
+Muss kompromisslos die Devise sein
 Heute. Jetzt.
 
 (Harry Maximilian Siegert)
