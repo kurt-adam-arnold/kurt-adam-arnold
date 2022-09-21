@@ -7,7 +7,7 @@ title: 'Trennendes — Verbindendes: Vernissage in Museumsscheuer Dossenheim'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
 published: true
-category: important-info
+category: past
 image: 'dossenheim_titel.png'
 #image: 'die_jury_titel.jpg'
 caption: 'Die Jury, vollkommen subjektiv (Ausschnitt)'

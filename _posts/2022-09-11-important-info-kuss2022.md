@@ -7,7 +7,7 @@ title: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
 published: true
-category: important-info
+category: past
 image: 'offenes-atelier/oa-600.jpg'
 caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 #image: 'torso.jpg'
@@ -21,9 +21,9 @@ Ich freue mich sehr in diesem Jahr wieder zum _Offenen Atelier_ im Rahmen des s�
 
 Die Veranstaltung findet überwiegend im Freien statt, diverse Getränke und Snacks werden bereitstehen. Das Gartengelände ist großräumig überdacht und bietet so auch bei weniger schönem Wetter ausreichend Schutz.
 
- 
+
 **Sonntag, 18.09.2022  von  11:00 – 21:00 Uhr**
- 
+
 
 Wie üblich wird es Live-Musik geben. Zu hören ist u.a. Nicolas Arnold am Piano und Gesang.
 

@@ -19,6 +19,24 @@ layout: default
 						</section>
 		</article>
 	{% endfor %}
+  
+  <h1>Vergangenes</h1>
+	{% for article in site.categories.past %}
+		<article>
+				<section class="bordered important-info">
+					<header>
+						<h2><span class="small-text">{{article.jahr}} </span>{{article.announce-date}} <span class="caps">{{article.announcement}}</span> {{article.title}}</h2>
+					</header>
+						<section>
+							<figure class="img-in-article">
+									<img src="{{site.baseurl}}/assets/img/bilder/{{ article.image }}">
+								<figcaption>{{ article.caption }}</figcaption>
+							</figure>
+
+								{{article.content}}
+						</section>
+		</article>
+	{% endfor %}
 
 	{% for article in site.categories.article %}
 		<article>
