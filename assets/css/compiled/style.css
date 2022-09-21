@@ -848,7 +848,7 @@ a.top-border {
 
 .past-info {
   opacity: 0.75;
-  border-left: 6px solid gray !important;
+  border-color: gray !important;
 }
 
 code {
