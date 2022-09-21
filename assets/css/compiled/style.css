@@ -115,7 +115,9 @@ figcaption {
 @media only screen and (min-width: 600px) {
   h1 {
     font-size: 150%;
-    margin-bottom: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 24px;
   }
 
   h2 {
@@ -816,7 +818,7 @@ a.top-border {
     margin-right: auto;
   }
 
-  article section {
+  article section, h1 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -842,6 +844,11 @@ a.top-border {
 
 .important-info code {
   display: inline-block;
+}
+
+.past-info {
+  opacity: 0.75;
+  border-left: 6px solid gray !important;
 }
 
 code {
