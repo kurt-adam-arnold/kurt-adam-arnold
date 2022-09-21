@@ -19,11 +19,11 @@ layout: default
 						</section>
 		</article>
 	{% endfor %}
-  
+
   <h1>Vergangenes</h1>
 	{% for article in site.categories.past %}
 		<article>
-				<section class="bordered important-info">
+				<section class="bordered important-info past-info">
 					<header>
 						<h2><span class="small-text">{{article.jahr}} </span>{{article.announce-date}} <span class="caps">{{article.announcement}}</span> {{article.title}}</h2>
 					</header>
