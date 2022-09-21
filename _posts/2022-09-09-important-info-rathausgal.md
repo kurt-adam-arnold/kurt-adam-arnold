@@ -14,7 +14,9 @@ caption: 'Aufnahme von der Vernissage, im Hintergrund Emilia Kabus an der Harfe.
 #caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gearbeitet aus drei mitteinander verbundenen Fichtestämmen'
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
---- 
+---
+
+**Laufende Veranstaltung**
 
 Arnolds Arbeiten wirken an vielen Stellen wie ein Déjà-Vu: Wie verblasste Erinnerungen, wie Traumgestalten, wie eine Traumszene; wie eben solche Träume, bei denen nur noch eine diffuse Emotion übrig bleibt, wir uns aber nicht mehr an die Traumhandlung erinnern können. Bei Arnolds Gemälden und Skulpturen reicht es nicht aus, sie mit den Augen zu betrachten, sie zu berühren; als Betrachter*in muss man sie mit der Seele wahrnehmen.
 

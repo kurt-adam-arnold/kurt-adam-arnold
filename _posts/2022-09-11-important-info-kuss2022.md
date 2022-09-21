@@ -1,6 +1,6 @@
 ---
 announce-date: '18. SEPT – '
-jahr: '2022'
+jahr: '(2022)'
 #announcement: 'Details zum Programm folgen bald! <br>'
 title: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 #title: 'Werkstatt für individuelle Besucher nach Anmeldung geöffnet'
