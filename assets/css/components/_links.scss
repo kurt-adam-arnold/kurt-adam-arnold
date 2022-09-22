@@ -1,16 +1,16 @@
 a{text-decoration: none;}
-a.standard:link, a.standard:visited {
+.important-info a:link, .important-info a:visited, a.standard:link, a.standard:visited {
   color:black;
   border-bottom: solid #C98100 1px;
   padding-bottom: 6px;
 }
 
-a.standard:hover, a.standard:active{
+.important-info a:hover, .important-info a:active, a.standard:hover, a.standard:active{
   color:#C97100;  /*C98100?*/
 }
 
 
-a.inlinelink:link, a.inlinelink:visited {
+.important-info a:link, .important-info a:visited, a.inlinelink:link, a.inlinelink:visited {
   color:#555;
   border-bottom: solid #C98100 1px;
   padding-bottom: 2px;
@@ -23,7 +23,7 @@ a.inlinelink:link, a.inlinelink:visited {
 
 }
 
-a.inlinelink:hover, a.inlinelink:active{
+.important-info a:hover, .important-info a:active, a.inlinelink:hover, a.inlinelink:active{
   color:#C97100;  /*C98100?*/
 }
 
