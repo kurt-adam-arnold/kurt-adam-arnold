@@ -18,6 +18,8 @@ caption: 'Aufnahme von der Vernissage, im Hintergrund Emilia Kabus an der Harfe.
 
 **Laufende Veranstaltung**
 
+**Zusätzliche Öffnungszeiten:** Samstag den 15.10.22 und 29.10.22, jeweils von 11:00 Uhr - 15:00 Uhr. Ich bin zu den angegebenen Zeiten anwesend _the artist is present_ – vorm Rathaus stehend ist der linke Eingang geöffnet.
+
 Arnolds Arbeiten wirken an vielen Stellen wie ein Déjà-Vu: Wie verblasste Erinnerungen, wie Traumgestalten, wie eine Traumszene; wie eben solche Träume, bei denen nur noch eine diffuse Emotion übrig bleibt, wir uns aber nicht mehr an die Traumhandlung erinnern können. Bei Arnolds Gemälden und Skulpturen reicht es nicht aus, sie mit den Augen zu betrachten, sie zu berühren; als Betrachter*in muss man sie mit der Seele wahrnehmen.
 
 
