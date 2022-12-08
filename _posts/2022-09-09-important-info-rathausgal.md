@@ -1,6 +1,6 @@
 ---
 announce-date: '09. SEPT – 23. NOV: '
-jahr: '2022'
+jahr: '(2022)'
 category: past
 #announcement: 'Details zum Programm folgen bald! <br>'
 title: 'Memories (RathausGalerie Viernheim)'
@@ -8,7 +8,6 @@ title: 'Memories (RathausGalerie Viernheim)'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
 published: true
-category: important-info
 image: 'Rathausgalerie_Emilia-Kabus_300.png'
 caption: 'Aufnahme von der Vernissage, im Hintergrund Emilia Kabus an der Harfe.'
 #image: 'torso.jpg'
@@ -16,8 +15,6 @@ caption: 'Aufnahme von der Vernissage, im Hintergrund Emilia Kabus an der Harfe.
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
 ---
-
-**Laufende Veranstaltung**
 
 
 Arnolds Arbeiten wirken an vielen Stellen wie ein Déjà-Vu: Wie verblasste Erinnerungen, wie Traumgestalten, wie eine Traumszene; wie eben solche Träume, bei denen nur noch eine diffuse Emotion übrig bleibt, wir uns aber nicht mehr an die Traumhandlung erinnern können. Bei Arnolds Gemälden und Skulpturen reicht es nicht aus, sie mit den Augen zu betrachten, sie zu berühren; als Betrachter*in muss man sie mit der Seele wahrnehmen.
