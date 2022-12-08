@@ -1,6 +1,7 @@
 ---
 announce-date: '09. SEPT – 23. NOV: '
 jahr: '2022'
+category: past
 #announcement: 'Details zum Programm folgen bald! <br>'
 title: 'Memories (RathausGalerie Viernheim)'
 #title: 'Werkstatt für individuelle Besucher nach Anmeldung geöffnet'
