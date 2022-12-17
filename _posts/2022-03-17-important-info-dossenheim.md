@@ -1,5 +1,5 @@
 ---
-announce-date: '24. MÄRZ – '
+announce-date: '24. MÄRZ – 21. AUG'
 jahr: '(2022)'
 #announcement: 'Details zum Programm folgen bald! <br>'
 title: 'Trennendes — Verbindendes: Vernissage in Museumsscheuer Dossenheim'
@@ -23,9 +23,4 @@ Nachdem die Ausstellung _Trennendes — Verbindendes_ immer wieder verschoben we
 
 Museumsscheuer Dossenheim, Rathausstr. 47, 69221 Dossenheim
 
-Die Ausstellung läuft bis zum 21.08.2022. **Öffnungzeiten:** Jeden _dritten_ Sonntag eines Monats von 14.00 – 17.00 Uhr, zu den Veranstaltungen sowie nach Vereinbarung.
-
-
-
-
-Weitere Informationen auf https://dossenheim.de/kultur/kommissionkunst/.
+Weitere Informationen auf https://dossenheim.de/kultur/kommissionkunst/
