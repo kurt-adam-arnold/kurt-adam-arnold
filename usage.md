@@ -1,0 +1,1 @@
+- Recompile using sass:  `sass assets/css/style.scss assets/css/compiled/style.css; git add assets/css/compiled/style.css`
