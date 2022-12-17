@@ -498,6 +498,10 @@ nav.subnav ul li {
     margin: 0;
   }
 }
+.vita-list ul {
+  list-style: none;
+}
+
 .vita-list li {
   margin-top: 12px;
 }
