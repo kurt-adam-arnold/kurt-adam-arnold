@@ -15,7 +15,9 @@ caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gear
 
 **Die Ausstellung ist bereits beendet.**
 
-Zur Vernissage der Ausstellung »erinnern, vergessen, bewahren« am 9.11.2019 um 15:00 Uhr im Rathaus Dossenheim lade ich herzlich ein. Es ist eine Gruppen&shy;ausstellung zum Holocaust&shy;gedenktag bei der auch Arbeiten von mir gezeigt werden.
+<p class="vevent">
+Zur <span class="summary">Vernissage der Ausstellung »erinnern, vergessen, bewahren«</span> am 9.11.2019 um <abbr class="dtstart" title="2019-11-09T15:00:00+01:00">15:00 Uhr</abbr> im <span class="location">Rathaus Dossenheim</span> lade ich herzlich ein. Es ist eine Gruppen&shy;ausstellung zum Holocaust&shy;gedenktag bei der auch Arbeiten von mir gezeigt werden.
+</p>
 
 ##### Sie ist antastbar<style> display:inline-block; </style>
 
@@ -34,3 +36,4 @@ Heute. Jetzt.
 
 (Harry Maximilian Siegert)
 ```
+
