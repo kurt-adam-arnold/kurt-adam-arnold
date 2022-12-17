@@ -15,9 +15,9 @@ caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gear
 
 **Die Ausstellung ist bereits beendet.**
 
-<p class="vevent">
-Zur <span class="summary">Vernissage der Ausstellung »erinnern, vergessen, bewahren«</span> am 9.11.2019 um <abbr class="dtstart" title="2019-11-09T15:00:00+01:00">15:00 Uhr</abbr> im <span class="location">Rathaus Dossenheim</span> lade ich herzlich ein. Es ist eine Gruppen&shy;ausstellung zum Holocaust&shy;gedenktag bei der auch Arbeiten von mir gezeigt werden.
-</p>
+<div class="h-event">
+Zur <span class="p-name">Vernissage der Ausstellung »erinnern, vergessen, bewahren«</span> am <time class="dt-start" datetime="2019-11-09T15:00:00+01:00">9.11.2019</time> <time class="dt-end" datetime="2019-11-09T18:00:00+01:00"></time> um 15:00 Uhr im <span class="p-location">Rathaus Dossenheim</span> lade ich herzlich ein. <p class="p-summary">Es ist eine Gruppen&shy;ausstellung zum Holocaust&shy;gedenktag bei der auch Arbeiten von mir gezeigt werden.</p>
+</div>
 
 ##### Sie ist antastbar<style> display:inline-block; </style>
 
