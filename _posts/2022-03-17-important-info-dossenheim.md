@@ -23,4 +23,4 @@ Nachdem die Ausstellung _Trennendes — Verbindendes_ immer wieder verschoben we
 
 Museumsscheuer Dossenheim, Rathausstr. 47, 69221 Dossenheim
 
-Weitere Informationen auf https://dossenheim.de/kultur/kommissionkunst/
+Weitere Informationen auf [Webseite der Kunstkommission Dossenheim](https://dossenheim.de/kultur/kommissionkunst/)
