@@ -27,4 +27,3 @@ Die Veranstaltung findet überwiegend im Freien statt, diverse Getränke und Sna
 
 Wie üblich wird es Live-Musik geben. Zu hören ist u.a. Nicolas Arnold am Piano und Gesang.
 
-Weitere Informationen auf der [Webseite des Kultursommers Südhessen](http://www.kultursommer-suedhessen.de/tage-der-offenen-ateliers/veranstaltung/kurt-adam-arnold-werkraum-in-der-illertstrasse-kurt-adam-arnold/2136)
