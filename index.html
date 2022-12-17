@@ -10,11 +10,12 @@ layout: default
 						<h2><span class="small-text">{{article.jahr}} </span>{{article.announce-date}} <span class="caps">{{article.announcement}}</span> {{article.title}}</h2>
 					</header>
 						<section>
+                        {% if article.image != '' %}
 							<figure class="img-in-article">
 									<img src="{{site.baseurl}}/assets/img/bilder/{{ article.image }}">
 								<figcaption>{{ article.caption }}</figcaption>
 							</figure>
-
+                        {% endif %}
 								{{article.content}}
 						</section>
 		</article>
