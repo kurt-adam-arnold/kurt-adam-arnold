@@ -30,6 +30,10 @@ box-sizing: border-box;
 			display: inline;
 			text-align: center;
 		}
+    .mainheader nav:first-of-type{
+      font-weight: bold;
+      text-transform: uppercase;
+    }
 		.mainheader nav a:link, .mainheader nav a:visited{
 			color:#000;
 
