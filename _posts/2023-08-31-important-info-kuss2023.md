@@ -16,7 +16,7 @@ Die Veranstaltung findet überwiegend im Freien statt, diverse Getränke und
 Snacks werden bereitstehen. Das Gartengelände ist großräumig überdacht und 
 bietet so auch bei weniger schönem Wetter ausreichend Schutz.
 
-**Sonntag, 17.09.2022  von  13:00 – 21:00 Uhr**
+**Sonntag, 17.09.2023  von  13:00 – 21:00 Uhr**
 
 Wie üblich wird es Live-Musik geben. 
 Zu hören sind dieses Mal zwischen 16.00 - 19.00 Uhr _Manon Schneider_ und _Florian Kaether_ 
