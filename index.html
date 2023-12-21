@@ -12,7 +12,7 @@ layout: default
 						<section>
                         {% if article.image != '' %}
 							<figure class="img-in-article">
-									<img src="{{site.baseurl}}/assets/img/bilder/{{ article.image }}">
+          <img src="{{site.baseurl}}/assets/img/bilder/{{ article.image }}" alt="{{article.caption}}">
 								<figcaption>{{ article.caption }}</figcaption>
 							</figure>
                         {% endif %}
@@ -30,7 +30,7 @@ layout: default
 					</header>
 						<section>
 							<figure class="img-in-article">
-									<img src="{{site.baseurl}}/assets/img/bilder/{{ article.image }}">
+          <img src="{{site.baseurl}}/assets/img/bilder/{{ article.image }}" alt="{{article.caption}}">
 								<figcaption>{{ article.caption }}</figcaption>
 							</figure>
 
@@ -82,13 +82,13 @@ layout: default
 			<section>
 				<figure class="title">
 					<a href="{{site.baseurl}}/skulpturen.html" title="Das Totenschiff">
-						<img src="{{site.baseurl}}/assets/img/bilder/skulpturen/boot.jpg">
+          <img src="{{site.baseurl}}/assets/img/bilder/skulpturen/boot.jpg" alt="Das Totenschiff, oder der schwarze Mann und das Meer (2012), Skulptur aus altem Holzbalken – gebrannt, gebürstet und geölt">
 					</a>
 					<figcaption>"Das Totenschiff, oder der schwarze Mann und das Meer" (2012), <br>Skulptur aus altem Holzbalken – gebrannt, gebürstet und geölt<br></figcaption>
 				</figure>
 				<figure class="title">
 					<a href="{{site.baseurl}}/malerei.html" title="Die Gelbe Gefahr">
-						<img src="{{site.baseurl}}/assets/img/bilder/malerei/gelb.jpg" alt="image">
+						<img src="{{site.baseurl}}/assets/img/bilder/malerei/gelb.jpg" alt="Gemälde in gelb mit Titel: Die Gelbe Gefahr">
 					</a>
 					<figcaption>"Die gelbe Gefahr" (2012), Mischtechnik auf Leinwand<br></figcaption>
 				</figure>
