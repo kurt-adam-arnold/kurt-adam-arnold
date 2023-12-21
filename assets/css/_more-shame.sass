@@ -8,3 +8,39 @@
 
 //  +transform(translate(-50%,0))    // mixin not found?! compass error
   // +transform(translate(0,-50%))
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
+details > summary::-webkit-details-marker /* Safari */ {
+  display: none;
+}
+
+details > summary {
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+
+details > summary:hover {
+  /*position: relative;
+    top: 3px;
+    left: 6px;
+    */
+  transform: translate(6px, 3px);
+}
+
+
+/* Possibly smoother animation on summary show*/
+@keyframes details-show {
+ from {
+   opacity:0;
+   transform: var(--details-translate, translateY(-0.5em));
+ }
+}
+
+details[open] > *:not(summary) {
+ animation: details-show 350ms ease-in-out;
+}
+
