@@ -1,6 +1,6 @@
 
 
-- add missing image alt tags
+- add missing image alt tags (just take the caption)
 - add multiple image sizes and sources (avif, webp)
 
 - [ ] Get jekyll serve etc. up and running!
@@ -8,6 +8,11 @@
   - `bundle init; bundle add webrick;`
   - `jekyll serve --baseurl=""  `
 
+## Feature Navigation
+
+- remove "kontakt"
+- change HOME -> KAA
+- change layout to flexbox!
 
 ## Feature Readmore
 
