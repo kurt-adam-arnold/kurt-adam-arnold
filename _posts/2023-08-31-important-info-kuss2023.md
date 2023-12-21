@@ -1,10 +1,10 @@
 ---
 announce-date: '17. SEPT – '
-jahr: '2023'
+jahr: '(2023)'
 title: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 author: Kurt ADAM Arnold
 published: true
-category: important-info
+category: past
 image: 'offenes-atelier/counttoten.jpg'
 caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 ---
