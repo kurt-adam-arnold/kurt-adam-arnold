@@ -8,10 +8,9 @@ box-sizing: border-box;
 
 		.mainheader nav{
 			margin:0 auto;
-			background-color: #fff;
-			/*height: 40px;*/
-				background-color: #ddd;
-		/*			padding-bottom: 10px;	wozu? Stört im mobildesign! */
+	margin-top: 20px;
+	box-shadow: 8px 8px 2px 1px rgba(101, 101, 101, 0.2);
+	border: solid black 0.25px;	/*			padding-bottom: 10px;	wozu? Stört im mobildesign! */
 		}
 		.mainheader nav ul{
 			list-style: none;
