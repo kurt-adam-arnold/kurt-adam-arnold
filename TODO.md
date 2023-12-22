@@ -1,5 +1,6 @@
 
 
+
 - add missing image alt tags (just take the caption)
 - add multiple image sizes and sources (avif, webp)
 
@@ -63,3 +64,11 @@ details[open] > *:not(summary) {
 }
 
 ```
+
+
+
+## Tools
+
+- css:
+  - Generate " minimal " scss file from current scss mess
+  - Simplify rules/specifiesr as much as possible to reach the same result...
