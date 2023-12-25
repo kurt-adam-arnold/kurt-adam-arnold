@@ -1,5 +1,4 @@
-
-
+# TODOs
 
 - add missing image alt tags (just take the caption)
 - add multiple image sizes and sources (avif, webp)
@@ -8,6 +7,15 @@
   - setup `nix-shell -p rubyPackages_3_2.github-pages`
   - `bundle init; bundle add webrick;`
   - `jekyll serve --baseurl=""  `
+
+## Modals
+
+- restricted use of modals for very current 
+
+
+
+## Feature sass->css migration
+
 
 ## Feature Navigation
 

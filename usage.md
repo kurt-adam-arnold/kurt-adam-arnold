@@ -1,1 +1,3 @@
 - Recompile using sass:  `sass assets/css/style.scss assets/css/compiled/style.css; git add assets/css/compiled/style.css`
+- Serve with: `jekyll serve --baseurl="" --host=0.0.0.0 --livereload`
+  - host 0.0.0.0 binds to local ip and makes it accessible via local network (nice for mobile devices)
