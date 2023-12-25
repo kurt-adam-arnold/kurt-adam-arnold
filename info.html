@@ -267,21 +267,23 @@ ggf. in einer zusätzlichen "Nebenspalte" schreiben, damit Weißraum gewinnen un
 		<article>
 			<article id="ausstellungen" class="columns bordered">
 
+        <details>
+            <summary>
 					<section>
 						<header>
 							<h1>Eine Auswahl vergangener Ausstellungen</h1> <!-- Kurt ADAM Arnold: ? -->
 							<!--<h2></h2>-->
 						</header>
-        <details>
-          <summary><i>Ausstellungsliste</i></summary>
+          <i>Ausstellungsliste</i>
+            </summary>
 						<ul class="vita-list">
-					<!-- {% assign sorted_vita = site.data.vita | reversed %} -->
-						{% for event in sorted_vita reversed %}
+            <!-- {% assign sorted_vita = site.data.vita | reverse %}  -->
+						{% for event in sorted_vita reversed%}
 							<li>
 								{{ event.year}} — <span class="colored-text"> {{ event.place }}</span> {% if event.title %} <span class=""> — „{{ event.title }}“</span>{% endif %} <span class="caps">{{ event.kind }} {{ event.comment }}</span>
 							</li>
 						{% endfor %}
-						</ul>
+            </ul>
           </details>
 
 		</article>
