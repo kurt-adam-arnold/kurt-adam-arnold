@@ -11,6 +11,10 @@
 - anchor link jump:
   - [ ] add smooth scrolll
   - [ ] end position, goal element is at very top of viewport (missing padding/margin top)
+- [ ] add jump to top arrow
+- [ ] add Arrow indicating open/close state of details/summary blocks
+- [ ] close all link to close all details/summary blocks
+- [ ] Remove post dates, if they are quite old (just makes the page look old)
 
 ## Dev
 
