@@ -347,3 +347,19 @@ lebt und arbeitet als freischaffender Künstler in Viernheim.
 		</section>	-->
 </div>
 <script type="text/javascript">
+
+var navElement = document.querySelector('.subnav');
+var anchorTags = navElement.querySelectorAll('a');
+Array.from(anchorTags).forEach(function(anchor) {
+  
+  var anchor_id = anchor.hash.substring(1);
+  //console.log(anchor_id);
+  anchor.addEventListener('click', function(event){
+    document.getElementById(anchor_id).children[0].setAttribute('open', ''); // Open the details
+  });
+  
+});
+
+
+
+</script>
