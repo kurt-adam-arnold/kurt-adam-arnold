@@ -7,7 +7,7 @@ title: 'Gruppenausstellung in Dossenheim'
 author: Kurt ADAM Arnold
 category: past
 image: 'torso.jpg'
-caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gearbeitet aus drei mitteinander verbundenen Fichtestämmen'
+caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gearbeitet aus drei miteinander verbundenen Fichtestämmen'
 #published: false
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'

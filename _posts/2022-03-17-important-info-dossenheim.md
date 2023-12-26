@@ -12,7 +12,7 @@ image: 'dossenheim_titel.png'
 #image: 'die_jury_titel.jpg'
 caption: 'Die Jury, vollkommen subjektiv (Ausschnitt)'
 #image: 'torso.jpg'
-#caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gearbeitet aus drei mitteinander verbundenen Fichtestämmen'
+#caption: 'GEFALLEN AUF DEM SCHLACHTFELD DER MÄCHTIGEN UND GIERIGEN (2016), gearbeitet aus drei miteinander verbundenen Fichtestämmen'
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
 ---

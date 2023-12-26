@@ -1,4 +1,4 @@
-<nav>
+<nav id="main-nav">
   <ul>
     <li class="{% if page.url == '/' %}active{% endif %}"><a href="{% if page.url == '/index.html' %}#{% else %}{{site.baseurl}}/index.html{% endif %}">home</a></li>
     <li class="{% if page.url == '/werke.html' or page.url == '/skulpturen.html' or page.url == 'malerei.html' or page.url contains 'malerei.html' %}active{% endif %}"><a href="{% if page.url == '/werke.html' %}#{% else %}{{site.baseurl}}/werke.html{% endif %}">werke</a></li>
