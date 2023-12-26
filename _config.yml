@@ -2,5 +2,6 @@ markdown: kramdown
 baseurl: /
 exclude: ['README.md']
 sass:
-  sass_dir: assets/css/style.scss
-encoding: utf-8
+  sass_dir: _sass
+    #verbose: true
+  style: compressed
