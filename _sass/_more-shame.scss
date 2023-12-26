@@ -26,5 +26,6 @@ details[open] > *:not(summary) {
   animation: details-show 250ms ease-in-out;
 }
 
-
-
+a.swipebox img{
+  max-height: min(100%,96vh) !important; // ensures visibility of full image on mobile devices
+}
