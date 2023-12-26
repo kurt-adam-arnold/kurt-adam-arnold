@@ -27,5 +27,19 @@ details[open] > *:not(summary) {
 }
 
 a.swipebox img{
-  max-height: min(100%,96vh) !important; // ensures visibility of full image on mobile devices
+  // still overflowing on mobile. probably best is to redesign with grid, if at all.
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: bottom;
+  //max-height: 96vh !important;
+  
+}
+
+a.swipebox div{
+  max-height: 96vh !important;
+  max-width: 96vw !important;
+  overflow: hidden;
+  // height: 400px;
+  // width: 200px;
 }
