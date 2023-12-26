@@ -32,8 +32,8 @@ a.swipebox img{
   width: 100%;
   object-fit: contain;
   object-position: bottom;
-  //max-height: 96vh !important;
-  
+  max-height: 96vh !important;  // no need for max-height: min(100%, 96vh) which somehow did not work
+  // now with explicit height 100% (which only works with object-fit) the min can be omitted
 }
 
 a.swipebox div{
