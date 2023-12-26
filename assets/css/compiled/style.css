@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .clearfix:after {
   content: ".";
   display: block;
@@ -41,7 +40,7 @@ body {
     border: none;
     padding-left: 0;
     margin-bottom: 80px;
-    /*ggf. aus media querys raushalten, da allgemeingültig?!) */
+    /*ggf. aus media querys raushalten, da allgemeingueltig?!) */
     padding-top: 10px;
     border-top: 12px solid #C97100;
     border-bottom: 3px solid #C97100; } }
@@ -189,12 +188,14 @@ figure.img-in-article img {
   box-sizing: border-box; }
 
 /*basic navigation*/
+#main-nav {
+  margin-top: 20px;
+  box-shadow: 8px 8px 2px 1px rgba(101, 101, 101, 0.2);
+  border: solid black 0.25px;
+  /*			padding-bottom: 10px;	wozu? Stoert im mobildesign! */ }
+
 .mainheader nav {
-  margin: 0 auto;
-  background-color: #fff;
-  /*height: 40px;*/
-  background-color: #ddd;
-  /*			padding-bottom: 10px;	wozu? Stört im mobildesign! */ }
+  margin: 0 auto; }
 
 .mainheader nav ul {
   list-style: none;
@@ -225,7 +226,6 @@ figure.img-in-article img {
   color: #C97100; }
 
 nav.subnav {
-  background-color: #fff;
   border: none;
   font-size: 80%;
   padding-top: 20px; }
@@ -234,7 +234,7 @@ nav.subnav ul li {
   width: auto; }
 
 @media only screen and (max-width: 480px) {
-  /*  nur für kleine Bildschirme */
+  /*  nur fuer kleine Bildschirme */
   /*				.mainheader nav ul li{
   					width:auto;
   				}
@@ -288,7 +288,7 @@ nav.subnav ul li {
   margin: 0 auto;
   padding-top: 10px;
   background-color: #ddd;
-  /* max-width: 1000px; besser über max-width:100% (falls nötig) vergeben und umschließenden Container auf max-wert setzen; */
+  /* max-width: 1000px; besser ueber max-width:100% (falls noetig) vergeben und umschliessenden Container auf max-wert setzen; */
   max-width: 1000px; }
 
 .mainfooter ul {
@@ -324,7 +324,7 @@ nav.subnav ul li {
   /*		.slideshow.paint figure div:nth-of-type(odd){
   			padding-right:6px;
   		}
-  /* gilt seltsamerweise für alle*/ }
+  /* gilt seltsamerweise fuer alle*/ }
 @media only screen and (min-width: 900px) {
   .slideshow.paint figure div {
     max-width: 33.333333333%; } }
@@ -783,8 +783,8 @@ div.mobile-only {
   text-align: center;
   margin: 60px auto 20px; }
 
-/*#######	Inhaltskästen	#########*/
-/* nötig???	*/
+/*#######	Inhaltskaesten	#########*/
+/* noetig???	*/
 .twocolumn {
   width: 100%; }
 
@@ -800,7 +800,7 @@ div.container-new img {
   max-width: 100%;
   max-height: 100%; }
 
-/* nötig???	ENDE*/
+/* noetig???	ENDE*/
 @media only screen and (min-width: 600px) {
   .maincontent article.contact section {
     border-left: solid black 1px;
@@ -832,6 +832,24 @@ body {
   -o-font-feature-settings: "onum" 1;
   font-feature-settings: "onum" 1; }
 
-/* messing around with centering methods of the sculpture gallery */
+details > summary::marker,
+details > summary::-webkit-details-marker {
+  display: none; }
+
+details > summary {
+  list-style: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-out; }
+
+details > summary:hover {
+  transform: translate(6px, 3px); }
+
+/* Possibly smoother animation on summary show*/
+@keyframes details-show {
+  from {
+    opacity: 0;
+    transform: var(--details-translate, translateY(-0.5em)); } }
+details[open] > *:not(summary) {
+  animation: details-show 250ms ease-in-out; }
 
 /*# sourceMappingURL=style.css.map */
