@@ -1,3 +1,5 @@
+html{scroll-behavior: smooth;}
+
 details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
 details > summary::-webkit-details-marker /* Safari */ {
   display: none;
