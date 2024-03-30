@@ -16,6 +16,6 @@ Im Rahmen der folgenden Veranstaltungen wird meine Kunst zu sehen sein:
 
 * Gruppenausstellung in Heddesheim
 * Offenes Atelier im Rahmen des Kultursommers Südhessen
-* Teilnahme an der <i>discovery art fair</i> in Frankfurt am Main
+* <i>discovery art fair</i> in Frankfurt am Main
 
 <p>Weitere Informationen zu diesen und anderen Veranstaltungen finden Sie hier auf der Seite sowie im Newsletter zu gegebener Zeit.</p>
