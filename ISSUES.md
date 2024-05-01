@@ -33,5 +33,4 @@
   - locally run: `alias sa='sass assets/css/style.scss assets/css/compiled/style.css'`
 - Should jekyll handle sass? Better compile it manually and just serve the compiled css file!
   - which has a bad dev workflow though. Best wuold be to get jekyll sass compilation back up!
-
-
+- [ ] Should `_sass/newgal.scss` have a leading `_` ? is it important?
