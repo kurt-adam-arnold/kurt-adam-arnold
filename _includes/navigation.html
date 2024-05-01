@@ -1,7 +1,7 @@
 <nav id="main-nav">
   <ul>
     <li class="{% if page.url == '/' %}active{% endif %}"><a href="{% if page.url == '/index.html' %}#{% else %}{{site.baseurl}}/index.html{% endif %}">home</a></li>
-    <li class="{% if page.url == '/werke.html' or page.url == '/skulpturen.html' or page.url == 'malerei.html' or page.url contains 'malerei.html' %}active{% endif %}"><a href="{% if page.url == '/werke.html' %}#{% else %}{{site.baseurl}}/werke.html{% endif %}">werke</a></li>
+    <li class="{% if page.url == '/werke.html' or page.url == '/gallery.html' or page.url == '/skulpturen.html' or page.url == 'malerei.html' or page.url contains 'malerei.html' %}active{% endif %}"><a href="{% if page.url == '/werke.html' %}#{% else %}{{site.baseurl}}/werke.html{% endif %}">werke</a></li>
     <li class="{% if page.url == '/info.html' %}active{% endif %}"><a href="{% if page.url == '/info.html' %}#{% else %}{{site.baseurl}}/info.html{% endif %}">info</a></li>
     <li class="{% if page.url == '/kontakt.html' %}active{% endif %}"><a href="{% if page.url == '/kontakt.html' %}#{% else %}{{site.baseurl}}/kontakt.html{% endif %}">kontakt</a></li>
   </ul>

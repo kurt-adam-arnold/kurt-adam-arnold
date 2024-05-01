@@ -1,0 +1,46 @@
+---
+layout: subnav-gallery
+---
+<!-- ???
+	<style type="text/css">
+		.slideshow img{
+			max-width:100%;
+			/*max-height:800px;*/
+			width:auto;
+
+			margin: 0 auto;
+		}
+	</style>	-->
+
+	<div class="maincontent werke">
+
+		<article class="twocolumn skulpturen">
+			<a class="standard" href="skulpturen.html">
+				<h1>Skulpturen</h1>
+					<div class="container-new">			<!-- ehemalige Klasse: "container"-->
+						<img src="{{site.baseurl}}/assets/img/bilder/skulpturen/big/big5236_lessheight.jpg" alt="Fotoaufnahme einer Skulptur aus Holz">
+					</div>
+				</a>
+				<div>
+						<p class="clearfix first">Als ein von der Neugier getriebener Mensch war der Weg von der Malerei zur Skulptur kurz und auch folgerichtig. Die Einbeziehung einer neuen Dimension, des Raumes, in mein künstlerisches Schaffen. Auch hier ist mein Anliegen den Entstehungsprozess in der Skulptur zu dokumentieren. In einem fest vorgegebenen Volumen eine Form zu finden, gegen dieses Eingeengtsein zu arbeiten, an die Grenzen der drei Ausdehnungen des Raumes zu stossen, das ist für mich die Herausforderung.</p>
+						<p> Bin ich in der Malerei ganz bewusst der Fläche verpflichtet, steht jetzt das räumliche Denken, Gestalten im Vordergrund. Was passiert, wenn Licht auf die Form trifft? Wie reagiert der umgebende Raum auf die Skulptur, und umgekehrt? Lichtführung, Bezugskanten und Flächen werden zum Thema. Was geschieht bei der Durchdringung der Figur durch den Raum, also Öffnungen und Bohrungen im Objekt? Die Oberfläche wird wichtig. Reibt die Skulptur sich mit ihrer rauen Oberfläche am Licht, am Raum, oder doch besser spiegeln und gleiten, also glatt poliert?</p>
+					</div>
+
+
+		</article>
+		<article class="gemaelde">
+			<a class="standard" href="malerei.html">
+				<h1>Gemälde</h1>
+				<div class="container-new">		<!-- ehemalige Klasse: "container"-->
+					<img src="{{site.baseurl}}/assets/img/bilder/malerei/rot.jpg" alt="Fotoaufnahme eines Gemäldes">
+				</div>
+
+			</a>
+			<div>
+				<p class="first">Der Mensch und seine Mitmenschen, ihr Verhältnis zueinander. Situationen, die wir alle schon einmal erlebt zu haben glauben, das darzustellen ist mir wichtig, inhaltlich betrachtet. Noch viel mehr bewegt mich jedoch die formale und farbige Gestaltung der Fläche, des Malgrundes. Schnelles, kraftvolles Arbeiten, gar nicht erst kleinlich werden. Schnelles, radikales Verwerfen von Kraftlosem. Trotzdem ältere Fragmente als Dokument des zeitlichen Ablaufes in der Malerei zu erhalten gehört zu meinem Malstil.  Auf diesem Weg kommt die vierte Dimension, die Zeit, in meine Kunst.</p>
+				<p> Dann wieder, vor allem in der Aktzeichnung, eine tastende erforschende Linienführung, dann die als richtig gefühlte verstärkend, verdichtend, so oft gezeichnet bis Sie fast Wirklichkeit wird. So stellt sich der lange Weg, auf der einen Seite Harmonie herzustellen, auf der anderen die Spannung zu steigern, dar. Dazu gehört auch den Zufall in die Arbeit mit ein zu beziehen, ihm Raum zu geben. Mit Fehlern umgehen lernen, bewusst solche begehen.</p>
+			</div>
+
+		</div>
+		</article>
+	</div>
