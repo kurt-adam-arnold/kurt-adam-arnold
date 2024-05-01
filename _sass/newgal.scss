@@ -1,0 +1,156 @@
+
+.gal .artcat {background: #e3e3e3;}
+.gal h2{background:#38abcd;}
+.gal picture {background: #142d4c;}
+.gal figcaption {background: #9fd3c7; }
+
+/* color reset */
+.gal .artcat, .gal picture, .gal figcaption, .gal figure, .gal h2, .gal body {background: white;}
+
+
+/* Goals: 
+*
+* 1. Multiple verticals: (a) different widths, same height (b) early wrap, leaving whitespace to the right, (c) no img overflows*/
+
+
+/*Issues!
+* Conflicting image sizing: picture (min)width/flex-basis 40%; picture max-height 92/96vh; */
+
+  /* progressive enhancements! */
+  /* 1. basic layout without flexbox (all one column) */
+  /* 2. flexbox layout */
+  /* 3. sticky and other enhancements */
+/* clear margins/paddings */
+/* reset border-box (not content box) */
+
+img {
+max-width: 100%;
+  /* max-height: 100%; */
+height: auto;
+/* width: 100%; */
+display: block;
+  object-fit:cover; /* contain */
+  object-fit:contain; /* contain */
+}
+
+figure.entry{
+    display: flex;
+    flex-direction: column;
+
+    /* for small screens */
+
+
+    /* min-height: 92vh; */
+  margin-bottom: 50px;
+}
+
+.entry .pictures_container {
+    /* flex-grow: 1; */
+
+    /* align-items:stretch; */
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+/*  .vertical picture{ */
+/*   flex: 0 0 40%; */
+/*   max-height: 90vh; */
+/*   height: 80vh; */
+/* } */
+
+.vertical figure, .vertical img{
+  /* ggf reicht img, ohne figure?! zuvor gabs mit img aber auch probleme.... */
+  max-height: 90vh;
+}
+
+.vertical .pictures{
+  align-self: end; /* To bottom align image and figcaption*/
+}
+
+figure.horizontal, figure.xwide {
+  flex-direction: column;
+  justify-content: end;
+}
+
+/*
+* LAYOUT definitions all together...
+* vert vs. horiz
+* 1col vs 2col layout (small vs big width viewport)
+* */
+
+
+@media screen and (min-width: 1000px) {
+ /* CSS styles for screens larger than 999px */
+.vertical .pictures{
+  margin-left: 20vw; /* only on bigger screen widths... */
+  }
+
+
+figure.entry.vertical{
+    /* for big enough screens  - add media query*/
+    flex-direction: row;
+    justify-content: space-between;
+  }
+.vertical figcaption{
+  margin-right:80px;
+  text-align: left;
+}
+
+
+}
+
+
+/* Horizontal / xwide*/
+/* flex-direction: column; align-items: center; figcaption{self-align: none/inherit/center; text-align:center} , non-sticky!
+
+/* ////////////////////////////// */
+
+/* non growing fixed size (in clamp boundaries) aside */
+.entry figcaption {
+    /* font-size: clamp(8px, 2vw, 18px); */
+    text-align:right; 
+    flex-grow: 0;
+    flex-shrink:0;
+    align-self: end;
+    h3{
+    margin-bottom:0;
+  }
+}
+
+.vertical figcaption{
+      /* position:sticky; bottom:20px;  */
+      /* right:20px; */
+    flex-basis: clamp(200px, 8em, 300px); /* find correct values! especially for change of row to column!*/
+}
+
+
+.artcat>h2{position:sticky; top:0; right:0; 
+    /* float:right; */
+  width: 100%;
+  text-align: right;
+  display: block;
+  z-index: 100;
+    padding: 0.2em;
+  margin-top:0;
+  }
+
+
+/* Add fake item to take up space... does not work as expected*/
+/* .pictures_container::after { */
+/*     content: ''; */
+/*     flex-grow: 1; */
+/*     width: 80px;  */
+/* } */
+
+.meta_year { 
+  display:block; /* to add linebreak */
+  margin-bottom: 10px;
+}
+
+.meta_format { display: block;}
+
+hr { border:0; height:0;}
