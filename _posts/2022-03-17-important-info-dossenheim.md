@@ -6,7 +6,7 @@ title: 'Trennendes — Verbindendes: Vernissage in Museumsscheuer Dossenheim'
 #title: 'Werkstatt für individuelle Besucher nach Anmeldung geöffnet'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
-published: true
+published: false
 category: past
 image: 'dossenheim_titel.png'
 #image: 'die_jury_titel.jpg'

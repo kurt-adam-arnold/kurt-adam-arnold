@@ -6,7 +6,7 @@ title: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 #title: 'Werkstatt für individuelle Besucher nach Anmeldung geöffnet'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
-published: true
+published: false
 category: past
 image: 'offenes-atelier/oa-600.jpg'
 caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
