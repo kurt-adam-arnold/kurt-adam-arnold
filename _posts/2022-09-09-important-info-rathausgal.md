@@ -7,7 +7,7 @@ title: 'Memories (RathausGalerie Viernheim)'
 #title: 'Werkstatt für individuelle Besucher nach Anmeldung geöffnet'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
-published: true
+published: false
 image: 'Rathausgalerie_Emilia-Kabus_300.png'
 caption: 'Aufnahme von der Vernissage, im Hintergrund Emilia Kabus an der Harfe.'
 #image: 'torso.jpg'
