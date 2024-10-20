@@ -31,4 +31,4 @@ Frankfurt Messe, Halle 1  Ludwig-Erhardt-Anlage 60327 Frankfurt
 
 Ich freue mich auf Euer Kommen!
 
-[Hier sind der Link zur Messe](https://discoveryartfair.com/de/) und [der Link zur Anreise](https://discoveryartfair.com/de/fairs/frankfurt/anreise/)
+[Hier sind der Link zur Messe](https://discoveryartfair.com/de/fairs/frankfurt/) und [der Link zur Anreise](https://discoveryartfair.com/de/fairs/frankfurt/anreise/)
