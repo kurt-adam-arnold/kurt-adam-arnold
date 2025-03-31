@@ -5,7 +5,7 @@ announcement: 'discovery art fair in Frankfurt'
 title: ''
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
-published: true
+published: false
 category: important-info
 image: ''
 #image: 'IMGP8914_1024.jpeg'
