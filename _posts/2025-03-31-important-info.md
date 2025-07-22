@@ -6,7 +6,8 @@ title: 'Könige, Bürger und andere Menschen'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
 published: true
-category: important-info
+#category: important-info
+category: past
 image: ''
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
