@@ -12,7 +12,7 @@ image: ''
 #caption: '"Bei der Arbeit…"'
 ---
 
-Im September bin ich _Featured Artist of the month_ im _Garalay House_.
+Im September bin ich _Featured Artist of the month_ im _Galaray House_.
 
 Die Vernissage findet am 5. September 2025 im
 Galaray House Lexington um 19:00 Uhr \
