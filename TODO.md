@@ -1,16 +1,20 @@
 # TODOs
 
+- remove border bottom for small width devices. border-top is enough to separate them
+- rename "info" to "text" or "texts"
+- change "full text welcome" to a bunch of links with short comment (if at all. basically its self explanatory and not needed)
+
 - add missing image alt tags (just take the caption)
 - add multiple image sizes and sources (avif, webp)
 
-- [ ] Get jekyll serve etc. up and running!
+- [x] Get jekyll serve etc. up and running!
   - setup `nix-shell -p rubyPackages_3_2.github-pages`
   - `bundle init; bundle add webrick;`
   - `jekyll serve --baseurl=""  `
 
 ## Modals
 
-- restricted use of modals for very current 
+- restricted use of modals for very current events?!
 
 
 

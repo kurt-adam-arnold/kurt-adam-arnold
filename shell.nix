@@ -12,6 +12,7 @@ mkShell {
  shellHook = ''
  export RUBYOPT="-KU -E utf-8:utf-8"
  alias serve='jekyll serve --baseurl="" --host=0.0.0.0 --livereload'
+ alias css='sass _sass/style.scss assets/css/compiled/style.css; git add assets/css/compiled/style.css'
  '';
 
  # You can do typical environment variable setting

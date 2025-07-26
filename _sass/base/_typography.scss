@@ -23,6 +23,7 @@ figcaption{
   margin-bottom: 20px;
 }
 
+
 .info h1{
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -42,6 +43,11 @@ figcaption{
   font-size: .6em;
 }
 
+h1 {
+	text-wrap: balance;
+	word-wrap: break-word;
+
+}
 
 @media only screen and (min-width: 600px){
 
