@@ -638,13 +638,18 @@ a {
 
 .important-info a:link, .important-info a:visited, a.standard:link, a.standard:visited {
   color: black;
+  transition: color ease-in 0.3s;
   border-bottom: solid #C98100 1px;
-  padding-bottom: 6px; }
+  padding-bottom: 6px;
+  margin-left: 1px;
+  margin-right: 1px; }
 
 .important-info a:hover, .important-info a:active, a.standard:hover, a.standard:active {
   color: #C97100;
   /*C98100?*/
-  margin-left: 1px; }
+  transition: color ease-in 0.2s;
+  margin-left: 2px;
+  margin-right: 0px; }
 
 .important-info a:link, .important-info a:visited, a.inlinelink:link, a.inlinelink:visited {
   color: #555;

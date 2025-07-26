@@ -3,63 +3,67 @@ layout: default
 ---
 <div class="maincontent index">
   <h1>Aktuelles</h1>
-	{% for article in site.categories.important-info %}
-		<article>
-				<section class="bordered important-info">
-					<header>
-						<h2><span class="small-text">{{article.jahr}} </span>{{article.announce-date}} <span class="caps">{{article.announcement}}</span> {{article.title}}</h2>
-					</header>
-						<section>
-                        {% if article.image != '' %}
-							<figure class="img-in-article">
+  {% for article in site.categories.important-info %}
+  <article>
+    <section class="bordered important-info">
+      <header>
+        <h2><span class="small-text">{{article.jahr}} </span>{{article.announce-date}} <span
+            class="caps">{{article.announcement}}</span> {{article.title}}</h2>
+      </header>
+      <section>
+        {% if article.image and article.image != '' %}
+        <figure class="img-in-article">
           <img src="{{site.baseurl}}/assets/img/bilder/{{ article.image }}" alt="{{article.caption}}">
-								<figcaption>{{ article.caption }}</figcaption>
-							</figure>
-                        {% endif %}
-								{{article.content}}
-						</section>
-		</article>
-	{% endfor %}
+          <figcaption>{{ article.caption }}</figcaption>
+        </figure>
+        {% endif %}
+        {{article.content}}
+      </section>
+  </article>
+  {% endfor %}
 
   <h1>Vergangenes</h1>
-	{% for article in site.categories.past %}
-		<article>
-				<section class="bordered important-info past-info">
-					<header>
-						<h2><span class="small-text">{{article.jahr}} </span>{{article.announce-date}} <span class="caps">{{article.announcement}}</span> {{article.title}}</h2>
-					</header>
-						<section>
-							<figure class="img-in-article">
+  {% for article in site.categories.past %}
+  <article>
+    <section class="bordered important-info past-info">
+      <header>
+        <h2><span class="small-text">{{article.jahr}} </span>{{article.announce-date}} <span
+            class="caps">{{article.announcement}}</span> {{article.title}}</h2>
+      </header>
+      <section>
+        {% if article.image and article.image != '' %}
+        <figure class="img-in-article">
           <img src="{{site.baseurl}}/assets/img/bilder/{{ article.image }}" alt="{{article.caption}}">
-								<figcaption>{{ article.caption }}</figcaption>
-							</figure>
+          <figcaption>{{ article.caption }}</figcaption>
+        </figure>
 
-								{{article.content}}
-						</section>
-		</article>
-	{% endfor %}
+        {% endif %}
+        {{article.content}}
+      </section>
+  </article>
+  {% endfor %}
 
-	{% for article in site.categories.article %}
-		<article>
-				<section class="bordered">
-					<header>
-						<h1>{{article.title}}</h1>
-					</header>
+  {% for article in site.categories.article %}
+  <article>
+    <section class="bordered">
+      <header>
+        <h1>{{article.title}}</h1>
+      </header>
 
-					<footer>
-						<p class="postinfo">{{article.author}}</p>
-					</footer>
+      <footer>
+        <p class="postinfo">{{article.author}}</p>
+      </footer>
 
-						<section>
+      <section>
 
-								{{article.content}}
+        {{article.content}}
 
-						</section>
-		</article>
-	{% endfor %}
+      </section>
+  </article>
+  {% endfor %}
 
 
-<!--
+  <!--
 	<article>
 				<section class="bordered">
 					<header>
@@ -78,30 +82,33 @@ layout: default
 				</section>
 		</article>
 -->
-		<article>
-			<section>
-				<figure class="title">
-					<a href="{{site.baseurl}}/werke.html#sculptures" title="Das Totenschiff">
-          <img src="{{site.baseurl}}/assets/img/bilder/skulpturen/boot.jpg" alt="Das Totenschiff, oder der schwarze Mann und das Meer (2012), Skulptur aus altem Holzbalken – gebrannt, gebürstet und geölt">
-					</a>
-					<figcaption>"Das Totenschiff, oder der schwarze Mann und das Meer" (2012), <br>Skulptur aus altem Holzbalken – gebrannt, gebürstet und geölt<br></figcaption>
-				</figure>
-				<figure class="title">
-					<a href="{{site.baseurl}}/werke.html#paintings" title="Die Gelbe Gefahr">
-						<img src="{{site.baseurl}}/assets/img/bilder/malerei/gelb.jpg" alt="Gemälde in gelb mit Titel: Die Gelbe Gefahr">
-					</a>
-					<figcaption>"Die gelbe Gefahr" (2012), Mischtechnik auf Leinwand<br></figcaption>
-				</figure>
-				<!-- <a href="bilder/gelb.jpg" class="swipebox" title="gelb">
+  <article>
+    <section>
+      <figure class="title">
+        <a href="{{site.baseurl}}/werke.html#sculptures" title="Das Totenschiff">
+          <img src="{{site.baseurl}}/assets/img/bilder/skulpturen/boot.jpg"
+            alt="Das Totenschiff, oder der schwarze Mann und das Meer (2012), Skulptur aus altem Holzbalken – gebrannt, gebürstet und geölt">
+        </a>
+        <figcaption>"Das Totenschiff, oder der schwarze Mann und das Meer" (2012), <br>Skulptur aus altem Holzbalken –
+          gebrannt, gebürstet und geölt<br></figcaption>
+      </figure>
+      <figure class="title">
+        <a href="{{site.baseurl}}/werke.html#paintings" title="Die Gelbe Gefahr">
+          <img src="{{site.baseurl}}/assets/img/bilder/malerei/gelb.jpg"
+            alt="Gemälde in gelb mit Titel: Die Gelbe Gefahr">
+        </a>
+        <figcaption>"Die gelbe Gefahr" (2012), Mischtechnik auf Leinwand<br></figcaption>
+      </figure>
+      <!-- <a href="bilder/gelb.jpg" class="swipebox" title="gelb">
 					<img src="bilder/gelb.jpg" alt="image">
 				</a>
 				<a href="bilder/chinese.jpg" class="swipebox" title="Drei Chinesen...">
 					<img src="bilder/chinese.jpg" alt="image">
 				</a> -->
-			</section>
-		</article>
+    </section>
+  </article>
 
-<!--
+  <!--
 			<div class="content">
 				<figure>
 					<img src="bilder/boot.jpg">
