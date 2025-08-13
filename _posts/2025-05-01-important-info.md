@@ -2,7 +2,7 @@
 announce-date: 'MAI – '
 jahr: '2025'
 #announcement: 'Könige, Bürger und andere Menschen'
-title: 'Aufnahme in Künsterbund Rhein-Neckar'
+title: 'Aufnahme in Künstlerbund Rhein-Neckar'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
 published: true
