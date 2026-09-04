@@ -5,8 +5,8 @@ title: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 author: Kurt ADAM Arnold
 published: true
 category: important-info
-image: 'offenes-atelier/counttoten.jpg' # 'offenes-atelier/offenes-atelier1-800.jpg' 
-caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
+image: 'offenes-atelier/oa_malerei_alexander-kaestel.jpeg' #'offenes-atelier/counttoten.jpg' # 'offenes-atelier/offenes-atelier1-800.jpg' 
+caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS), <i>Bild: Alexander Kästel</i>'
 ---
 
 Liebe Kunstinteressierte und Freunde,
