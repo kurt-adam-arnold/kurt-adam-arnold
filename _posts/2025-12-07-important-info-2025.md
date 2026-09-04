@@ -4,7 +4,7 @@ jahr: '2025'
 title: 'In Futuro - kunst im rosengarten'
 author: Kurt ADAM Arnold
 published: true
-category: important-info
+category: past
 #image: 'offenes-atelier/counttoten.jpg'
 #caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 ---

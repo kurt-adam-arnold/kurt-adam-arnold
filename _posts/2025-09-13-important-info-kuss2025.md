@@ -4,7 +4,7 @@ jahr: '2025'
 title: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 author: Kurt ADAM Arnold
 published: true
-category: important-info
+category: past
 image: 'offenes-atelier/offenes-atelier1-800.jpg' #'offenes-atelier/counttoten.jpg'
 caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 ---

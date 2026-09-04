@@ -6,7 +6,7 @@ title: 'Galaray House (Massachusetts)'
 #date: 18. Juli 2016
 author: Kurt ADAM Arnold
 published: true
-category: important-info
+category: past
 image: ''
 #image: 'IMGP8914_1024.jpeg'
 #caption: '"Bei der Arbeit…"'
