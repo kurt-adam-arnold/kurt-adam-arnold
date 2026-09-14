@@ -12,7 +12,7 @@ caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS), <i>Bild
 Liebe Kunstinteressierte und Freunde,
 <br>
 <br>
-ich lade euch herzlich zum _Tag der offenen Ateliers_ am **Sonntag den 27.09.2025** ein. Weitere Infos folgen.
+ich lade euch herzlich zum _Tag der offenen Ateliers_ am **Sonntag den 27.09.2026** ein. Weitere Infos folgen.
 <br>
 Fotografische Eindrücke vom letzten Jahr gibt es auf der Webseite von <a class="inlinelink" href="https://www.alexanderkaestel.de/post/kurt-adam-arnold">Alexander Kästel</a>.
 
