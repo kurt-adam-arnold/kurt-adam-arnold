@@ -1,7 +1,7 @@
 ---
 announce-date: '07. DEZ – '
 jahr: '2025'
-title: 'In Futuro - kunst im rosengarten'
+title: 'In Futuro - kunst im rosengarten (Künsterbund Rhein-Neckar)'
 author: Kurt ADAM Arnold
 published: true
 category: past
@@ -9,11 +9,12 @@ category: past
 #caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 ---
 
+<!--
 Am 7.12. wurde die Ausstellung _In Futuro_ im Rosengarten Mannheim eröffnet. Gemeinsam mit weiteren Kunstschaffenden des Künstlerbundes stelle ich dort im rechten Seitenfoyer einige Werke aus.
 
 Die Ausstellung läuft vom 7. bis 28. Dezember 2025 während der Öffnungszeiten und zu den öffentlichen Veranstaltungen im Rosengarten Mannheim.
 Eine öffentliche Führung findet am Samstag, 20.12.2025, von 17–18 Uhr statt.
-
+-->
 <!--
 <br><br>
 Vertreten sind zahlreiche Kunstschaffende des Künstlerbundes: 

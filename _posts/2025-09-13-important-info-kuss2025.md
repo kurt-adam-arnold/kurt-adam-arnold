@@ -5,10 +5,11 @@ title: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 author: Kurt ADAM Arnold
 published: true
 category: past
-image: 'offenes-atelier/offenes-atelier1-800.jpg' #'offenes-atelier/counttoten.jpg'
+image: '' # 'offenes-atelier/offenes-atelier1-800.jpg' #'offenes-atelier/counttoten.jpg'
 caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS)'
 ---
 
+<!--
 Liebe Kunstinteressierte und Freunde,
 <br>
 <br>
@@ -17,8 +18,8 @@ Im Werkraum in der Illertstraße 11, 68519 Viernheim, präsentiere ich euch mein
 
 Als besonderes Highlight wird die Band  **SAFE ’N’ SOUND**  von ca <u>16.00 bis 18.00 Uhr</u> für Live-Musik sorgen. 
 
-<!--Weitere Infos zur Band im Anhang.-->
+<!- -Weitere Infos zur Band im Anhang.- ->
 
 Ich freue mich auf euer Kommen!
 
-
+-->

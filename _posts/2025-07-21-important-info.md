@@ -12,11 +12,13 @@ image: ''
 #caption: '"Bei der Arbeit…"'
 ---
 
-Im September bin ich _Featured Artist of the month_ im _Galaray House_.
+Im September war ich _Featured Artist of the month_ im _Galaray House_.
+[Kurt Adam Arnold in Galaray House](https://galarayhouse.com/artist/kurt-adam-arnold)
 
+<!--
 Die Vernissage findet am 5. September 2025 im
 Galaray House Lexington um 19:00 Uhr \
 in _1720 Massachusetts Avenue, Lexington, MA 02420_ statt.
+-->
 
 
-[Kurt Adam Arnold in Galaray House](https://galarayhouse.com/artist/kurt-adam-arnold)
