@@ -29,7 +29,11 @@ Das Duo Adler/Hölldorfer -- from soulful pop to funky jazz -- wird die Veransta
 <br>
 <b>Fotografische Eindrücke</b> vom letzten Jahr gibt es auf der <a class="inlinelink" href="https://www.alexanderkaestel.de/post/kurt-adam-arnold">Webseite von Alexander Kästel</a>.
 
-
+<figure class="title" style="max-width:100%">
+<img src="{{site.baseurl}}/assets/img/bilder/offenes-atelier/oa-800.jpeg"
+alt="Gemälde: Kurt Adam Arnold bei der Arbeit">
+<!--figcaption style="text-align: right"><i>Bild: Alexander Kästel</i></figcaption-->
+</figure>
 
 
 
@@ -45,5 +49,6 @@ Als besonderes Highlight wird die Band  **SAFE ’N’ SOUND**  von ca <u>16.00 
 <!--Weitere Infos zur Band im Anhang.
 
 Ich freue mich auf euer Kommen!-->
+
 
 
