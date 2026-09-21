@@ -652,7 +652,7 @@ a {
   margin-right: 0px; }
 
 .important-info a:link, .important-info a:visited, a.inlinelink:link, a.inlinelink:visited {
-  color: #555;
+  color: #333;
   border-bottom: solid #C98100 1px;
   padding-bottom: 2px;
   /*	text-transform: uppercase;*/
