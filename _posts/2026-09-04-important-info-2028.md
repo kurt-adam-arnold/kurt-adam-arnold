@@ -5,7 +5,7 @@ title: 'Jubiläum: 10 Jahre Offenes Atelier'
 author: Kurt ADAM Arnold
 published: true
 category: important-info
-image: 'offenes-atelier/oa_malerei_alexander-kaestel_q70.jpeg' #'offenes-atelier/counttoten.jpg' # 'offenes-atelier/offenes-atelier1-800.jpg' 
+image: 'offenes-atelier/oa_malerei_alexander-kaestel_q70.jpg' #'offenes-atelier/counttoten.jpg' # 'offenes-atelier/offenes-atelier1-800.jpg' 
 caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS), <i>Bild: Alexander Kästel</i>'
 ---
 
