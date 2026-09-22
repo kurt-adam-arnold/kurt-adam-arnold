@@ -13,7 +13,7 @@ image: ''
 ---
 
 Im September war ich _Featured Artist of the month_ im _Galaray House_.
-[Kurt Adam Arnold in Galaray House](https://galarayhouse.com/artist/kurt-adam-arnold)
+[Kurt Adam Arnold in Galaray House](https://galarayhouse.com/artist/kurt-adam-arnold){:.inlinelink}
 
 <!--
 Die Vernissage findet am 5. September 2025 im
