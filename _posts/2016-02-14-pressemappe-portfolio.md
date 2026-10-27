@@ -15,4 +15,5 @@ Eine Auswahl meiner Werke können als Portfolio heruntergeladen werden:
 <li>
 <a class="inlinelink" href="assets/Portfolio-2026.pdf">Portfolio-2026.pdf (5.1 MB)</a>
 </li>
+</ul>
 </p> 
