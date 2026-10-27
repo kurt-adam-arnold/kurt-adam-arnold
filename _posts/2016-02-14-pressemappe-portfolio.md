@@ -1,0 +1,12 @@
+---
+title: Pressemappe/Portfolio
+#date: ''
+author: 
+page: index
+category: article
+published: false
+---
+<p>
+Eine Auswahl meiner Werke können als Portfolio heruntergeladen werden: 
+<a class="inlinelink" href="assets/Portfolio-2026.epub">portfolio.epub (38.4 MB)</a><!--, <a class="inlinelink" href="assets/portfolio.pdf">portfolio.pdf</a>-->
+</p> 
