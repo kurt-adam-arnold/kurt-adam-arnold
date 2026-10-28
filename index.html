@@ -21,6 +21,24 @@ layout: default
       </section>
   </article>
   {% endfor %}
+  {% for presse in site.categories.presse %}
+  <article>
+    <section class="bordered">
+      <header>
+        <h1>{{presse.title}}</h1>
+      </header>
+
+      <footer>
+        <p class="postinfo">{{presse.author}}</p>
+      </footer>
+
+      <section>
+
+        {{presse.content}}
+
+      </section>
+  </article>
+  {% endfor %}
 
   <h1>Vergangenes</h1>
   {% for article in site.categories.past %}

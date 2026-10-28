@@ -3,7 +3,7 @@ title: Pressemappe/Portfolio
 #date: ''
 author: 
 page: index
-category: article
+category: presse
 #published: false
 ---
 <p>
