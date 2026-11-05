@@ -10,7 +10,7 @@ caption: 'Offenes Atelier im Rahmen des Kultursommers Südhessen (KUSS), <i>Bild
 ---
 
 
-zum 10-jährigen Jubiläum meines <i>Offenen Ateliers</i>, im Rahmen des Kultursommers Südhessen (KUSS), lud ich euch zum _Tag der offenen Ateliers_ ein --- Werkraum in der Illertstraße 11, 68519 Viernheim.
+Zum 10-jährigen Jubiläum meines <i>Offenen Ateliers</i>, im Rahmen des Kultursommers Südhessen (KUSS), lud ich euch zum _Tag der offenen Ateliers_ in meinen Werkraum in der Illertstraße ein.
 <br>
 <br>
 <b>Live-Musik </b>
